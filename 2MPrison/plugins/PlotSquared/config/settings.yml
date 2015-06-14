@@ -1,0 +1,114 @@
+version: 2.10.9
+schematics:
+  save_path: /var/www/schematics
+chunk-processor:
+  enabled: false
+  max-entities: 512
+  max-blockstates: 4096
+uuid:
+  read-from-disk: false
+claim:
+  max-auto-area: 10
+clear:
+  fastmode: false
+  auto:
+    enabled: false
+    days: 365
+  check-disk: false
+  'on':
+    ban: false
+max_plots: 127
+console:
+  color: true
+teleport:
+  on_login: false
+  delay: 0
+debug: true
+clusters:
+  enabled: false
+auto_update: false
+plotme-convert:
+  enabled: false
+  cache-uuids: false
+confirmation:
+  unlink: true
+  delete: true
+  clear: true
+kill_road_mobs: false
+metrics: true
+cache:
+  permissions: false
+plotme-alias: false
+comments:
+  notifications:
+    interval: -1
+worldedit:
+  max-iterations: 1000
+  max-volume: 500000
+  blacklist:
+  - cs
+  - .s
+  - restore
+  - snapshot
+  - delchunks
+  - listchunks
+  require-selection-in-mask: true
+mob_pathfinding: true
+UUID:
+  force-lowercase: false
+  offline: false
+protection:
+  tnt-listener:
+    enabled: false
+  piston:
+    falling-blocks: true
+titles: true
+global_limit: false
+worlds:
+  plotworld:
+    plot:
+      height: 64
+      floor:
+      - '2'
+      biome: FOREST
+      size: 32
+      bedrock: true
+      create_signs: false
+      filling:
+      - '3'
+      auto_merge: false
+    event:
+      spawn:
+        breeding: false
+        egg: false
+        custom: true
+      pvp: false
+      pve: false
+    economy:
+      use: false
+      prices:
+        claim: 100.0
+        sell: 75.0
+        merge: 100.0
+    home:
+      allow-nonmembers: false
+      default: side
+    wall:
+      height: 64
+      filling: '1:0'
+      block_claimed: '44:1'
+      block: '44'
+    road:
+      height: 64
+      width: 7
+      block: '5'
+    world:
+      border: false
+    schematic:
+      file: 'null'
+      on_claim: false
+      specify_on_claim: false
+    chat:
+      enabled: false
+    flags: {}
+    natural_mob_spawning: false

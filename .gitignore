@@ -1,0 +1,7 @@
+2MPrison/logs/latest.log
+*.tmp
+*.log.gz
+2MPrison/world/playerdata/
+2MPrison/world_the_end/playerdata/
+2MPrison/plotworld/playerdata/
+2MPrison/plugins/Essentials/userdata

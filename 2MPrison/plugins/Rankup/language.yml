@@ -1,0 +1,8 @@
+rankup-success-broadcast: '&b%PLAYER%&3 as aide la prison par ses travaux. Il est maintenent &b%RANK%.'
+
+rankup-failed-money: '&cIl te faut &b%COST%&c pour obtenir le rang &b%RANK%'
+rankup-failed-next-group-not-allowed: '&cYou are not allowed to rank up.'
+
+rankup-no-permission: '&cYou do not have permission for that.'
+
+do-not-edit-this: 2

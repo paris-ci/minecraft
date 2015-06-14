@@ -1,0 +1,66 @@
+# === MineConomy Language ===
+# 
+#     
+
+Lang:
+  Tag: MineConomy
+  Message:
+    Welcome Message: '&fWelcome to MineConomy, %player%! Your balance is &a%pos-balance%&c%neg-balance%
+      &f%currency%. Type ''/mc help'' for help.'
+    Welcome Account Created: '&fYour MineConomy Account has been created!'
+    Account Balance: '&fBalance: &a%pos-balance%&c%neg-balance% &f%currency%'
+    Bank Balance: '&f[%bank%] Balance: &a%pos-balance%&c%neg-balance%'
+    Currency Set: '&f%player%''s currency has been set to %currency%.'
+    Exp Check: '&fExperience: &a%exp% &fpoints'
+    Get Balance: '&f%player%''s account balance is %balance% %currency%.'
+    Set Balance: '&f%player%''s account balance is set to %balance% %currency%.'
+    Give: '&fGave %player% %amount% %currency%.'
+    Payed To: '&f%amount% %currency% has been payed to %player%.'
+    Payed From: '&f%player% has payed you %amount% %currency%.'
+    Took: '&fTook %amount% %currency% from %account%.'
+    Empty: '&fSet %account%''s balance to 0.'
+    Account Created: '&fCreated account ''%account%''.'
+    Account Deleted: '&fAccount ''%account%'' has been deleted.'
+    Bank Created: '&fCreated bank ''%bank%''.'
+    Bank Deleted: '&fBank ''%bank%'' has been deleted.'
+    Bank Account Created: '&fCreated account ''%account%'' in bank ''%bank%''.'
+    Bank Account Deleted: '&fDeleted account ''%account%'' in bank ''%bank%''.'
+    Empty Bank Account: '&fSet %account%''s balance in bank %bank% to 0.'
+    Bank Renamed: '&fRenamed bank ''%oldbank%'' to ''%bank%''.'
+    Get Bank Account: '&f%account%''s balance in bank %bank% is %balance%.'
+    Set Bank Account: '&fSet %account%''s balance in bank %bank% to %balance%.'
+    Bank Account Renamed: '&fRenamed account ''%oldaccount%'' in bank ''%oldbank%
+      to ''%account%'' in bank ''%bank%'''
+    Bank Account Deposit: '&fDeposited %amount% in %account% in bank %bank%.'
+    Bank Account Withdraw: '&fWithdrew %amount% in %account% in bank %bank%.'
+    Transaction Complete: '&fTransaction complete.'
+    Help:
+      Page 1: <br>&a===== MineConomy Help Page 1/3 =====<br>&f<REQUIRED> [OPTION] (OPTIONAL)<br><br>&7/mc help <PAGE>&f - displays this menu.<br>&7/mc balance &for &7/money &f- displays your account balance.<br>&7/mc pay <ACCOUNT> &f- pays specified account.<br>&7/mc get <ACCOUNT> &f- displays specified account's balance.<br>&7/mc set <ACCOUNT> <AMOUNT> &f- sets specified account's balance.<br>&7/mc empty <ACCOUNT> &f- sets specified account's balance to 0.<br>&7/mc create <ACCOUNT> &f- creates new account.<br>&7/mc delete <ACCOUNT> &f- deletes existing account.<br>&7/mc give <ACCOUNT> <AMOUNT> &f- gives specified account the specified amount.<br>&7/mc take <ACCOUNT> <AMOUNT> &f- takes specified amount from the specified account.<br>&7/mc exp &f- displays your amount of experience.
+      Page 2: <br>&a===== MineConomy Help Page 2/3 =====<br>&7/mc deposit <TYPE> <AMOUNT> &f- deposits specified amount of physical currency into your account.<br>&7/mc withdraw <TYPE> <AMOUNT> &f- withdraws specified amount of physical currency from your account.<br>&7/mc setcurrency (ACCOUNT) <CURRENCY> &f- sets the specified account's currency.<br>&7/mcb <BANK> &f- displays your balance in the specified bank.<br>&7/mcb balance <BANK> &f- displays your balance in the specified bank.<br>&7/mcb create <BANK> (ACCOUNT) &f- creates new bank/bank account.<br>&7/mcb delete <BANK> (ACCOUNT) &f- deletes specified bank/bank account.<br>&7/mcb get <BANK> <ACCOUNT> &f- displays the balance of specified bank account.<br>&7/mcb set <BANK> <ACCOUNT> &f- sets the balance of specified bank account.
+      Page 3: <br>&a===== MineConomy Help Page 3/3 =====<br>&7/mcb empty <BANK> <ACCOUNT> &f- empties the specified bank account.<br>&7/mcb rename <BANK> (ACCOUNT) <NEW_BANK> (NEW_ACCOUNT) &f- renames the specified bank/bank account.<br>&7/mcb transfer <BANK> (ACCOUNT) <TO_BANK> <TO_ACCOUNT> <AMOUNT> &f- transfers the specified amount from bank account to bank account.<br>&7/mcb join <BANK> &f- joins specified bank.<br>&7/mcb leave <BANK> &f- leaves specified bank.<br>&7/mcb deposit <BANK> <AMOUNT> &f- deposits amount in your account.<br>&7/mcb withdraw <BANK> <AMOUNT> &f- withdraws amount from your account.
+  Op:
+    Update: '&eA new version of MineConomy is available! Download it at http://dev.bukkit.org/server-mods/mineconomy/'
+  Error:
+    Permission:
+      Have Account: '&cYou do not have permission to have an account.'
+      Generic: '&cYou do not have permission to do that.'
+    Int: '&cYou must enter an integer!'
+    Invalid Args: '&cInvalid number of arguements!'
+    Command:
+      Recognition: '&fMineConomy did not recognize your command. Type &7/mc help &ffor
+        help with MineConomy commands.'
+    Currency Not Found: '&cThe currency you requested does not exist.'
+    Max Debt: '&cThe value requested is below the maxium allowed debt.'
+    They Enough: '&c%player% did not have enough money!'
+    You Enough: '&cYou do not have enough money!'
+    Account Exists: '&cThe account ''%account%'' already exists!'
+    No Account: '&cThe account you requested does not exist.'
+    No Bank: '&cThe bank you requested (%bank%) does not exist.'
+    No Bank Account: '&cThe account you requested in the specified bank (%bank%) does
+      not exist.'
+    Bank Exists: '&cThe bank ''%bank%'' already exists!'
+    Money Format: '&cYou must enter the correct monetarily formatted number.'
+    Bank Account Exists: '&cThe account ''%account%'' in bank ''%bank%'' does not
+      exist'
+    No Physical Currency: '&cThat Physical Currency could not be found.'
+    Exp Enough: '&cYou do not have enough experience.'

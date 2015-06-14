@@ -1,0 +1,15 @@
+# The version (It gets angry when you change its value)
+version: '1.2'
+
+# The worlds this plugin is active in
+worlds:
+- plotworld
+
+# If true, all complex redstone will be disabled
+disable-all: false
+
+# The interval before a clock can tick (20 ticks = 1 second)
+timeout: 60
+
+# The maximum number of devices allowed to tick per second
+max-devices: 5

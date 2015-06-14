@@ -1,0 +1,9 @@
+# === MineConomy Currencies ===
+# 
+#     Experience ID: _exp
+
+Currencies:
+  Dollars:
+    Value: 1.0
+    Default: true
+Physical: ''

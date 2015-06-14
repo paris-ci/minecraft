@@ -1,0 +1,92 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1Commandes gardes'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'g; garde; gardes'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling; tell: &eMenu ouvert :)'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 399
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+punir:
+  COMMAND: 'punir'
+  NAME: '&e/punir'
+  LORE:
+    - 'Mets en prison un joueur,'
+    - 'et lui enleve ses items...'
+  ID: 101
+  POSITION-X: 1
+  POSITION-Y: 1
+
+pasdepvp:
+  COMMAND: 'pasdepvp'
+  NAME: '&e/pasdepvp'
+  LORE:
+    - 'PVP interdit. Si tu continues je vais devoir sévir'
+    - '(Regles prison a ne respecter que devant les gardes)'
+  ID: 276
+  POSITION-X: 2
+  POSITION-Y: 1
+
+ungarde:
+  COMMAND: 'ungarde'
+  NAME: '&e/ungarde'
+  LORE:
+    - 'Je suis un garde.'
+    - 'Devant moi tu dois respecter les regles de la prison...'
+  ID: 302
+  POSITION-X: 3
+  POSITION-Y: 1
+
+combat:
+  COMMAND: 'combat'
+  NAME: '&e/combat'
+  LORE:
+  - 'Pour tuer il faut que tu ne te fasse pas reperrer par les gardes.'
+  - 'En gros devant les gardes tu doit respecter les règles de la prison.'
+  - 'Mais si il n''y a pas de garde tu peut les enfreindre'
+  - 'Neanmoins les regles du serveur sont a respecter en permanance'
+  ID: 302
+  POSITION-X: 4
+  POSITION-Y: 1
+
+menu-close:
+  NAME: '&6Quitter'
+  ID: redstone lamp
+  LORE:
+    - 'Cet item permet de'
+    - 'quitter ce menu, sans rien faire'
+  POSITION-X: 9
+  POSITION-Y: 3

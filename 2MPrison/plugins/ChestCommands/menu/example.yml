@@ -1,0 +1,210 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1La prison'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu; help; m'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling; tell: &eMenu ouvert :)'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 399
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+suicide:
+  COMMAND: 'suicide'
+  NAME: '&e/suicide'
+  LORE:
+    - 'Cela vous permet de vous suicider,'
+    - 'pour revenir au spawn !'
+  ID: bed
+  POSITION-X: 1
+  POSITION-Y: 1
+
+rankup:
+  COMMAND: 'rankup'
+  NAME: '&e/rankup'
+  LORE:
+    - 'Si vous avez l''argent,'
+    - 'vous monterez en grade !'
+  ID: tnt
+  POSITION-X: 2
+  POSITION-Y: 1
+
+argent:
+  COMMAND: 'tell: &9Votre argent: &f{money}'
+  NAME: '&e/money'
+  LORE:
+    - 'Affiche l''argent que vous possedez'
+  ID: emerald
+  POSITION-X: 3
+  POSITION-Y: 1
+
+kit:
+  COMMAND: 'kit prison'
+  NAME: '&e/kit prison'
+  LORE:
+    - 'Vous donne le kit de départ'
+  ID: 272
+  POSITION-X: 4
+  POSITION-Y: 1
+
+afk:
+  COMMAND: 'afk'
+  NAME: '&e/afk'
+  LORE:
+    - 'Vous mets afk'
+  ID: 346
+  POSITION-X: 5
+  POSITION-Y: 1
+
+mineinfo:
+  COMMAND: 'mrl info'
+  NAME: '&e/mrl info'
+  LORE:
+    - 'Vous donne des informations sur'
+    - 'la mine dans laquelle vous vous trouvez'
+  ID: 56
+  POSITION-X: 6
+  POSITION-Y: 1
+
+balancetop:
+  COMMAND: 'balancetop'
+  NAME: '&e/balancetop'
+  LORE:
+    - 'Affiche les joueurs avec le plus d''argent du serveur'
+    - 'Essayez de les rattraper :)'
+  ID: 388
+  POSITION-X: 7
+  POSITION-Y: 1
+
+Fullbright:
+  COMMAND: 'console:minecraft:effect {player} 16 1000000 1'
+  NAME: 'FullBright'
+  LORE:
+    - 'Voir dans le noir'
+  ID: 50
+  POSITION-X: 1
+  POSITION-Y: 2
+
+UNFullbright:
+  COMMAND: 'console:minecraft:effect {player} 16 0'
+  NAME: 'UNFullBright'
+  LORE:
+    - 'Ne plus y voir'
+    - 'dans le noir'
+  ID: 76
+  POSITION-X: 2
+  POSITION-Y: 2
+
+callout:
+  COMMAND: 'callout'
+  NAME: 'callout'
+  LORE:
+    - 'Permet au gens de mentionner'
+    - 'votre nom dans le chat !'
+  ID: 378
+  POSITION-X: 3
+  POSITION-Y: 2
+
+Dmine:
+  COMMAND: 'console:mrl reset dmine;console:bc {player} a reset la mine D grace au /menu'
+  NAME: 'Reset Dmine'
+  LORE:
+    - 'Remplir de nouveau la mine D'
+    - 'pour seulement 100'
+  ID: 3
+  POSITION-X: 1
+  POSITION-Y: 3
+  PRICE: 100.0
+
+Cmine:
+  COMMAND: 'console:mrl reset cmine;console:bc {player} a reset la mine C grace au /menu'
+  NAME: 'Reset Cmine'
+  LORE:
+    - 'Remplir de nouveau la mine C'
+    - 'pour seulement 500'
+  ID: 1
+  POSITION-X: 2
+  POSITION-Y: 3
+  PRICE: 500.0
+Cmine2:
+  COMMAND: 'console:mrl reset cmine2;console:bc {player} a reset la mine de gravier C grace au /menu'
+  NAME: 'Reset Cmine2'
+  LORE:
+    - 'Remplir de nouveau la mine C (sable, gravier et argile)'
+    - 'pour seulement 50'
+  ID: 15
+  POSITION-X: 3
+  POSITION-Y: 3
+  PRICE: 50.0
+
+Bmine:
+  COMMAND: 'console:mrl reset bmine;console:bc {player} a reset la mine B grace au /menu'
+  NAME: 'Reset Bmine'
+  LORE:
+    - 'Remplir de nouveau la mine B'
+    - 'pour seulement 12500'
+  ID: 16
+  POSITION-X: 4
+  POSITION-Y: 3
+  PRICE: 12500.0
+
+3mine:
+  COMMAND: 'console:mrl reset 3mine;console:bc {player} a reset la mine 3 grace au /menu'
+  NAME: 'Reset 3mine'
+  LORE:
+    - 'Remplir de nouveau la mine 3'
+    - 'pour seulement 60000'
+  ID: 21
+  POSITION-X: 5
+  POSITION-Y: 3
+  PRICE: 60000.0
+
+stats:
+  COMMAND: 'tell: &9Joueurs connectes: &f{online}/{max_players}; tell: &9Votre nom: &f{player}; tell: &9Le monde dans lequel vous etes: &f{world}; tell: &9Votre argent: &f{money};gc'
+  NAME: '&6Statistiques'
+  LORE:
+    - 'Affiche dans votre chat'
+    - 'des statistiques sur vous et le serveur.'
+  ID: empty map
+  POSITION-X: 9
+  POSITION-Y: 1
+
+menu-close:
+  NAME: '&6Quitter'
+  ID: redstone lamp
+  LORE:
+    - 'Cet item permet de'
+    - 'quitter ce menu, sans rien faire'
+  POSITION-X: 9
+  POSITION-Y: 4

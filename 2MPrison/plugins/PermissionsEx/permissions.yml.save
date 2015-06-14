@@ -1,0 +1,827 @@
+groups:
+  d:
+    options:
+      default: true
+      rank: '1000'
+      prefix: '&0(&bD&0)&7 '
+    permissions:
+    - -plotme.use
+    - essentials.tpaccept
+    - ranks.membership.8d
+    - chestcommands.command.open
+    - chestcommands.open.example.yml
+    - -Signshop.Signs.*
+    - -Signshop.CopyPaste
+    - -Signshop.DenyLink.*
+    - - essentials.sethome.bed
+    - mineresetlite.mine.info
+    - essentials.plugins
+    - essentials.help
+    - essentials.exp
+    - essentials.kit
+    - essentials.kits.prison
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.gc
+    - essentials.msg
+    - essentials.suicide
+    - essentials.balancetop
+    - multiverse.portal.access.spleef
+    - multiverse.portal.access.d
+    - multiverse.portal.access.starter
+    - multiverse.portal.access.dmine
+    - multiverse.portal.access.dbois
+    - multiverse.portal.access.jtocj
+    - multiverse.portal.access.cjtoj
+    - multiverse.portal.access.farm
+    - multiverse.portal.access.dfarm
+    - -multiverse.portal.access.Ancb
+    - multiverse.portal.access.cmine3
+    - multiverse.portal.access.Dhub
+    - rankup.rankup
+    - -combattag.ignore
+  c:
+    inheritance:
+    - d
+    permissions:
+    - ranks.membership.7c
+    - multiverse.portal.access.dtoc
+    - multiverse.portal.access.ctod
+    - multiverse.portal.access.cmine
+    - multiverse.portal.access.c
+    - multiverse.portal.access.chub
+    options:
+      rank: '900'
+      prefix: '&0(&3C&0)&7 '
+  b:
+    inheritance:
+    - c
+    permissions:
+    - ranks.membership.6b
+    - multiverse.portal.access.bmine
+    - multiverse.portal.access.btomine
+    - multiverse.portal.access.ctob
+    - multiverse.portal.access.b
+    - multiverse.portal.access.btoc
+    - multiverse.portal.access.bhub
+    options:
+      rank: '800'
+      prefix: '&0(&9B&0)&7 '
+  a:
+    inheritance:
+    - b
+    permissions:
+    - ranks.membership.5a
+    - -multiverse.portal.access.Ancb
+    - multiverse.portal.access.Acb
+    - multiverse.portal.access.AcbS
+    - multiverse.portal.access.btoa
+    - multiverse.portal.access.atob
+    - multiverse.portal.access.shopcb
+    - multiverse.portal.access.A
+    - multiverse.portal.access.AcbToA
+    - multiverse.portal.access.Ahub
+    - multiverse.portal.access.Atohub
+    options:
+      rank: '700'
+      prefix: '&0(&1A&0)&7 '
+  '1':
+    inheritance:
+    - a
+    permissions:
+    - ranks.membership.5a
+    - plotme.use.add
+    - plotme.use.*
+    - plotme.use
+    - multiverse.portal.access.1toplot
+    - multiverse.portal.access.plotto1
+    - multiverse.portal.access.1
+    - multiverse.portal.access.ato1
+    - multiverse.portal.access.1toa
+    - multiverse.portal.access.1hub
+    - multiverse.portal.access.hubtoplot
+    options:
+      rank: '600'
+      prefix: '&0(&a1&0)&7 '
+  '2':
+    inheritance:
+    - 1
+    permissions:
+    - ranks.membership.5a
+    - multiverse.portal.access.2
+    - multiverse.portal.access.1to2
+    - multiverse.portal.access.2to1
+    - multiverse.portal.access.btocb
+    - multiverse.portal.access.2hub
+    - multiverse.portal.access.bcb
+    options:
+      rank: '500'
+      prefix: '&0(&22&0)&7 '
+  '3':
+    inheritance:
+    - 2
+    permissions:
+    - ranks.membership.5a
+    - multiverse.portal.access.3
+    - multiverse.portal.access.3
+    - multiverse.portal.access.3hub
+    options:
+      rank: '400'
+      prefix: '&0(&d3&0)&7 '
+  '4':
+    inheritance:
+    - 3
+    permissions:
+    - ranks.membership.5a
+    - multiverse.portal.access.4
+    - multiverse.portal.access.3to4
+    - multiverse.portal.access.4to3
+    options:
+      rank: '300'
+      prefix: '&0(&54&0)&7 '
+  g:
+    permissions:
+    - plotme.use.add
+    - plotme.use.*
+    - plotme.use
+    - minecraft.command.clear
+    - multiverse.portal.access.spleef
+    - essentials.tpaccept
+    - RankPrefixPlus.garde
+    - -combattag.ignore
+    - ranks.membership.4garde
+    - chestcommands.command.open
+    - chestcommands.command.open.others
+    - chestcommands.open.example.yml
+    - chestcommands.open.garde.yml
+    - -Signshop.Signs.*
+    - -Signshop.CopyPaste
+    - -Signshop.DenyLink.*
+    - - essentials.sethome.bed
+    - mineresetlite.mine.info
+    - essentials.feed
+    - essentials.clearinventory
+    - essentials.help
+    - essentials.exp
+    - essentials.kit
+    - essentials.kits.prison
+    - essentials.kits.garde
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.gc
+    - essentials.msg
+    - essentials.suicide
+    - multiverse.portal.access.*
+    - bukkit.command.punir
+    - essentials.jail
+    - essentials.jails.*
+    - essentials.togglejail
+    - essentials.balancetop
+    options:
+      rank: '500'
+      prefix: '&0(&1G&9arde&0)&c '
+  youtuber:
+    permissions:
+    - essentials.kit
+    options:
+      rank: '99'
+      suffix: ' &0(&fYou&4Tuber&0)&e'
+  helper:
+    permissions:
+    - bm.command.ban
+    - bm.command.ban.offline
+    - bm.command.tempban
+    - bm.command.tempban.offline
+    - bm.command.kick
+    - bm.command.mute
+    - bm.command.mute.offline
+    - bm.command.tempmute.offline
+    - bm.command.tempmute
+    - bm.command.warn
+    options:
+      rank: '99'
+      suffix: ' &0(&fHelper&0)&e'
+  admin:
+    permissions:
+    - -combattag.ignore
+    - -ranks.membership.1fondateur
+    - -ranks.membership.3architecte
+    - '*'
+    options:
+      rank: '1'
+      prefix: '&0(&4A&cdmin&0)&e '
+  architecte:
+    permissions:
+    - -combattag.ignore
+    - -ranks.membership.1fondateur
+    - -ranks.membership.2admin
+    - worldedit.*
+    - worldguard.*
+    - essentials.gamemode
+    options:
+      rank: '2'
+      prefix: '&0(&2&lA&architecte&0)&e '
+  fondateur:
+    permissions:
+    - -combattag.ignore
+    - -ranks.membership.2admin
+    - -ranks.membership.3architecte
+    - '*'
+    options:
+      rank: '1'
+      prefix: '&0(&4&lF&condateur&0)&e '
+schema-version: 1
+users:
+  4878fb6c-017b-4d5a-a1e2-749c5be12d06:
+    group:
+    - g
+    options:
+      name: IceRech
+  aca55782-e9cf-406b-afb1-91bb1c424212:
+    group:
+    - fondateur
+    options:
+      name: Eyesofcreeper
+  3c392780-f483-4fcf-b9ee-b92d98b8c17e:
+    group:
+    - admin
+    options:
+      name: Magmaar
+  69af59b0-8360-42a7-a8b4-a5a54622863a:
+    group:
+    - '3'
+    - '2'
+    - '1'
+    - a
+    - b
+    options:
+      name: Hykee
+  19597738-4287-4793-8a0c-d8085bfd69bf:
+    group:
+    - b
+    options:
+      name: Pal33
+  84dcab9c-7f59-4722-8f9f-527bada3ec02:
+    group:
+    - c
+    options:
+      name: Invassible
+  d9b6e9a6-5870-436f-be3b-c4597c1049f1:
+    group:
+    - b
+    options:
+      name: Nephilan
+  a62884fe-23f2-4726-8d48-88ce8a67c114:
+    group:
+    - c
+    options:
+      name: NanoDwarf_
+  93cab008-bdf9-4a55-86f8-1f4ec020d1eb:
+    group:
+    - b
+    - youtuber
+    options:
+      name: Griffith
+  7060ed2a-a3c0-4501-aadd-1d29fde76994:
+    group:
+    - c
+    options:
+      name: Lyccaon
+  5fcd37c4-850e-4fb6-a8d4-727f3acef1a9:
+    group:
+    - '1'
+    - a
+    - b
+    - c
+    - d
+    options:
+      name: Aquaar
+  394691e1-3a77-4e22-9d3c-03197b0940df:
+    group:
+    - g
+    options:
+      name: proust188
+  526d1b32-9be4-4afe-ad93-1b6ebbf888ce:
+    group:
+    - g
+    options:
+      name: Sirvechs_Lucyfer
+  4a27493f-2155-4145-a1dd-d0171f278b18:
+    group:
+    - '2'
+    - '1'
+    - a
+    - b
+    options:
+      name: Iskriv44
+  975be2fb-0992-438d-bb12-b1f67f2b496f:
+    group:
+    - c
+    options:
+      name: Drapty
+  6e86ebc5-fd85-4021-8633-91faca0a5a31:
+    group:
+    - b
+    - c
+    - youtuber
+    options:
+      name: Roms_
+  8bc01b09-6075-4877-8309-f41d9a573954:
+    group:
+    - c
+    options:
+      name: Twiz_Gaming
+  620670c8-15d7-4c4a-92dc-f2859d91154e:
+    group:
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: Astar685
+  2072c896-8484-4382-b6da-91164eb83810:
+    group:
+    - '2'
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: Thor_Axe67
+  ccfb4340-58c8-4a80-b2bd-79fd904a1d4b:
+    group:
+    - b
+    - c
+    options:
+      name: laplongejr
+  6deeefcc-0a59-4903-bfc8-8d9b606a4eab:
+    group:
+    - c
+    options:
+      name: guimauve234
+  2d75e315-a64b-485d-b353-681745bbf7a5:
+    group:
+    - a
+    - b
+    - c
+    options:
+      name: Tomy_Slim
+  de52a6d8-3bc6-4b34-b902-cf77be097548:
+    group:
+    - a
+    - b
+    - c
+    options:
+      name: achemd78
+  3c13238d-8e5f-4d51-9e5e-478e220423b5:
+    group:
+    - c
+    options:
+      name: rivenfuckata
+  38b1d0ec-9557-45db-b845-611f437e6b07:
+    group:
+    - a
+    - b
+    - c
+    options:
+      name: captainjack_56
+  aaeb8b6f-584f-4397-a6d8-9717f8d1eb1b:
+    group:
+    - g
+    options:
+      name: Xenics_Named
+  63acd48a-76d3-4011-9363-e9a771f4b0fa:
+    group:
+    - c
+    options:
+      name: SxOxygen
+  949c6c99-f8fb-4168-af2a-6708634193c9:
+    group:
+    - c
+    options:
+      name: Swootch_3000
+  c18cc5ae-9004-481c-9038-5ced0b646c68:
+    group:
+    - g
+    options:
+      name: tdrieux
+  c32211eb-faee-45b7-abb5-da42fdf3fe7b:
+    group:
+    - b
+    - c
+    options:
+      name: pintralot
+  798040f1-ed9c-404d-b880-ac2639c442a1:
+    group:
+    - '3'
+    - '2'
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: Xenics_Yui_Chan
+  b75e7aa0-7273-4e81-b054-e4debd3d10a7:
+    group:
+    - c
+    options:
+      name: TheSaturne
+  b101b65f-c3b9-42d1-8dd5-a315e062d0b1:
+    group:
+    - c
+    options:
+      name: RoiYles
+  20088e8e-96b3-469c-9abf-9533b9a727e6:
+    group:
+    - '2'
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: seb23100
+  73506556-4d64-4bbf-9b7c-003f5dd42da5:
+    group:
+    - c
+  cc1f889f-200f-462a-a413-ebfd7888a613:
+    group:
+    - architecte
+    options:
+      name: Birdsoffires
+  c748f0ea-f304-4c06-a71c-654d973cbb8b:
+    group:
+    - g
+    options:
+      name: hughughugo
+  954daea5-e9b5-49e6-9855-d2c26e299c2c:
+    group:
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: bagal21
+  391d6bea-095f-4056-a429-3440990577a0:
+    group:
+    - a
+    - b
+    - c
+    options:
+      name: theclem15
+  d1ed3e76-e634-4876-90a1-03d8cb203b69:
+    group:
+    - c
+    options:
+      name: alex1349
+  93fb0a68-2cda-4a95-bacf-c92babe51fb8:
+    group:
+    - b
+    - c
+    options:
+      name: trotistyle
+  2d314191-4903-43ec-954a-3ca60d85cf2f:
+    group:
+    - '2'
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: iMaaks
+  72e02a94-c59e-4b60-81d8-59edd30e9379:
+    group:
+    - c
+    options:
+      name: Nydou
+  8afa4fe3-a45e-4a86-beef-24dab935db7b:
+    group:
+    - b
+    - c
+    options:
+      name: Waymix
+  c728b9e0-5afc-425d-904a-8fce1dae531c:
+    group:
+    - a
+    - b
+    - c
+    options:
+      name: arsenic62
+  be2e3c60-f4f4-41d6-a475-3a16c9467a3a:
+    group:
+    - c
+    options:
+      name: Bouloups
+  0d495381-20e2-4819-991d-1e1f98617451:
+    group:
+    - b
+    - c
+    options:
+      name: superTV6
+  2396b63b-c3f7-4a7d-a871-6eeb0e980124:
+    group:
+    - c
+    options:
+      name: Gameure
+  c19b0c6d-a64c-44e7-8c90-927dfae95b92:
+    group:
+    - c
+    options:
+      name: MineGamingYT
+  f5052b41-5bc0-4981-ae60-b5cda4dc94f3:
+    group:
+    - c
+    options:
+      name: SylenPhoenix
+  30cf083b-4116-482b-98da-5fd410d50260:
+    group:
+    - b
+    - c
+    options:
+      name: grostapeur
+  ac21431d-87c0-4704-a679-64988ae49e86:
+    group:
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: MoonPicsou
+  04b8f8ef-152b-4599-9e65-4d319970d1e0:
+    group:
+    - c
+    options:
+      name: LightAngels
+  7f44ec21-a1b8-4d49-854e-b37d57ee9874:
+    group:
+    - c
+    options:
+      name: LAnana236
+  f29bd342-cea7-4938-ba72-37abd39f65e7:
+    group:
+    - b
+    - c
+    options:
+      name: traxeo
+  d5240ba3-f031-44f7-ac29-31b7a1a0fbc9:
+    group:
+    - c
+    options:
+      name: giogio77200
+  30e97004-c4c6-4ab2-b9a3-e3c3fe3651be:
+    group:
+    - c
+    options:
+      name: Scorpion91
+  0fcdd2f2-91ce-41a3-8ad7-3fcef677418b:
+    group:
+    - b
+    - c
+    options:
+      name: GeaLBenJ
+  ff8a942c-1b55-4168-bed1-1911568d89d4:
+    group:
+    - c
+    options:
+      name: Frapax
+  d74185ed-a0a9-4be4-a464-85c0f2ea9d26:
+    group:
+    - c
+    options:
+      name: elecbob
+  58e4a0f8-3051-4f25-b353-323c9405262b:
+    group:
+    - b
+    - c
+    options:
+      name: Starkinder
+  9af2c69c-ff97-4a0a-ab85-ad18cba67a78:
+    group:
+    - a
+    - b
+    - c
+    options:
+      name: SkyseTv_
+  0bbe9f71-5e97-43ef-8ce0-18c94816e8ec:
+    group:
+    - c
+    options:
+      name: kingLeo84
+  aea313f3-8449-4a14-9cf9-0d591f67f4af:
+    group:
+    - c
+    options:
+      name: r12
+  6b303d76-b1e4-4fa2-bcd0-a75cd26f3777:
+    group:
+    - c
+    options:
+      name: PandaHorseCA
+  39ad83e9-cb56-4b16-a6c8-88c0e433ff96:
+    group:
+    - b
+    - c
+    options:
+      name: robot275
+  c346842d-bf5d-4507-9afd-d86020090fe3:
+    group:
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: Phenixis_GFX
+  f7b33efb-7d02-4d9c-92c8-aa707252b67e:
+    group:
+    - b
+    - c
+    options:
+      name: jautoetallorjtm
+  f75ee576-755c-46fd-97e1-e73886ef42e7:
+    group:
+    - g
+    options:
+      name: RubenGFX
+  0f33e072-50cd-445c-bc33-8f320fcadc5a:
+    group:
+    - c
+    options:
+      name: IPR_skese
+  0b1cd3a7-81c5-4b11-b58b-c7d21dcdaa0e:
+    group:
+    - c
+    options:
+      name: bigbobo02
+  d550ccf1-5eae-4025-9467-3c52781fac07:
+    group:
+    - c
+    options:
+      name: TheMinCar
+  f26d761f-27ed-455f-8c52-f5e935d92d9c:
+    group:
+    - c
+    options:
+      name: GalitoFR
+  550e1688-d922-44b8-a838-85c33ccade93:
+    group:
+    - c
+    options:
+      name: isix44
+  373ebeb2-16b5-4715-84ae-8862688c8501:
+    group:
+    - c
+    options:
+      name: iTs_nesQuik
+  780552be-cc39-416b-9db8-1859f129e0d7:
+    group:
+    - c
+    options:
+      name: kingofdreams003
+  ab3981f2-1bc5-4c00-92a4-fbf1cf689ef3:
+    group:
+    - b
+    - c
+    options:
+      name: Samcoucaill3
+  d80e87b8-e9a4-48c7-ab90-aa2dbb2fa186:
+    group:
+    - c
+    options:
+      name: cocoking2001
+  66fc58b0-c1d6-4d53-8e9c-4cdde29e05d1:
+    group:
+    - b
+    - c
+    options:
+      name: Queenty
+  ca7c7b8c-d65f-4307-8e58-1fb5544f582a:
+    group:
+    - c
+    options:
+      name: MlleShana
+  00755bb2-2c21-4f34-bd0a-6bdc6dfba777:
+    group:
+    - c
+    options:
+      name: Gromak
+  93040dd5-d472-4ea9-ace6-600cfdc94465:
+    group:
+    - b
+    - c
+    options:
+      name: yukiolyon
+  567f1195-9543-48bd-b333-c8d0b5974b83:
+    group:
+    - c
+    options:
+      name: Airtod
+  dae48358-769e-454d-bd3b-97d7a02c2773:
+    group:
+    - c
+    options:
+      name: Sopra2107
+  6cadbcf8-cdbd-4290-9061-4e36ac9d7306:
+    group:
+    - a
+    - b
+    - c
+    options:
+      name: Diamant2406
+  1eb4a0bf-0a66-4d11-8005-e31f1c8bbaf6:
+    group:
+    - b
+    - c
+  8efd4c34-2f7a-44e9-8154-863262424cb8:
+    group:
+    - b
+    - c
+  cc53254f-5c7a-4d49-b091-503e3c10d988:
+    group:
+    - b
+    - c
+    options:
+      name: lyssandredu56
+  4d6e362d-4405-4217-9b97-88edcfb739e2:
+    group:
+    - c
+    options:
+      name: Chamalo2003
+  5cfe4322-c6e1-4f1a-aca3-67612f378498:
+    group:
+    - c
+    options:
+      name: XXsnake47
+  c35a8766-2765-4af0-8da2-b8de59dc4019:
+    group:
+    - a
+    - b
+    - c
+    options:
+      name: _Akuma
+  31df846e-1f09-45dd-ad1a-1a875aa16f06:
+    group:
+    - c
+    options:
+      name: crepper38
+  93f43d77-b16f-4675-a691-73d4f574ce96:
+    group:
+    - c
+    options:
+      name: XxarthorxX
+  262f6e0d-aac4-46e8-a91d-f77b637d5e70:
+    group:
+    - '1'
+    - a
+    - b
+    - c
+    options:
+      name: Skealyx
+  0bf37683-1709-4afa-8169-7fd9ff634a0d:
+    group:
+    - c
+    options:
+      name: BLaxk_xStraZ
+  705cb76d-a026-4526-af24-a42e23b0b256:
+    group:
+    - c
+    options:
+      name: ChaosPL4Y
+  4d5254a3-c730-43ec-930c-c403acfdadd6:
+    group:
+    - c
+    options:
+      name: yanyanones
+  0b6bcf66-07da-4fce-a46f-9419b79b7bd2:
+    group:
+    - c
+    options:
+      name: NeKrox
+  e2a28b79-10b9-41d0-8be3-24eb166d896b:
+    group:
+    - b
+    - c
+    options:
+      name: YeZoK
+  2478dc7a-c066-46fb-8a94-886d8ce7c818:
+    group:
+    - c
+    options:
+      name: Pedo_Dreyoz
+  99ee8f1b-993b-46ea-81c5-fc2530e41c5c:
+    group:
+    - c
+    options:
+      name: remilakers
+  46f47142-c91a-4836-93b2-4c3254d0fafd:
+    group:
+    - c
+    options:
+      name: Pedo_Xeppo
+  e6c8a8c3-5add-4743-afdd-0127ab47b16d:
+    group:
+    - c
+    options:
+      name: Mortibus15

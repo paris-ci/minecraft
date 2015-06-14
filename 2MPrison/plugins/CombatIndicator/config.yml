@@ -1,0 +1,51 @@
+# ==========================================
+# = CombatIndicator Configuration          =
+# ==========================================
+
+# Whether the plugin should automatically notify
+# you about new updates in the console
+# WE HIGHLY SUGGEST YOU LEAVE THIS ON TRUE!
+check-updates: true
+
+
+# The max radius of players seeing damage/health information
+radius-x: 7
+radius-y: 5
+radius-z: 7
+
+# Ticks until the hologram is removed
+ticks-till-remove: 40
+
+# How long to wait, until a new Hologram update is scheduled.
+# An update will move the hologram to the correct position and
+# removes it, if necessary
+# Decrease this value, if your holograms aren't smooth; increase
+# it to reduce server lagging
+update-ticks: 2
+
+# The y-Offset of the hologram
+yOffsetNormal: 0.6
+
+# The y-Offset of the hologram, if the entity has a shown name (e.g. a player)
+yOffsetName: 1
+
+# Section for indicating of damage
+# -------------------------------------------
+damage:
+  -
+    format: '&c-%final_val%'
+    visibleTo: attacker
+    permission-see: combatindicator.see.damage
+
+  -
+    format: '&c-%final_val%&r by &4%attacker%'
+    visibleTo: non-attacker
+    source: [Player, Entity]
+    permission-see: combatindicator.see.healing
+
+
+# Section for indicating healing
+# -------------------------------------------
+healing:
+  -
+    format: '&2+%val%'

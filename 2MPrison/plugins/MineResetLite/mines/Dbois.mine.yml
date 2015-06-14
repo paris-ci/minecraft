@@ -1,0 +1,27 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  minZ: -43
+  resetDelay: 20
+  surface: '7:0'
+  resetClock: 18
+  maxZ: -32
+  maxY: 10
+  maxX: -73
+  minX: -110
+  minY: 4
+  resetWarnings:
+  - '19'
+  - '15'
+  - '10'
+  - '5'
+  - '1'
+  fillMode: false
+  name: Dbois
+  isSilent: false
+  composition:
+    '17:3': 0.2
+    '17:2': 0.2
+    '17:1': 0.2
+    '5:0': 0.2
+    '17:4': 0.2
+  world: world

@@ -1,0 +1,13 @@
+﻿on join:
+	if block at player's head is fence, 83, 101, 102, 160, 188, 189, 190, 191, 192, 183, 184, 185, 186, 187, 107, 65, 106, 96, 167, 324, 330, 427, 428, 429, 430, 431, 321, 8, 9, 10, 11, 77, 50, 69, 76, 131, 323, 397, 425, 175, 389, 30, 132 or Nether Brick Fence:
+		stop
+	while block at player's head isn't air:
+		
+		set {_loc} to location of player
+		add 1 to y coord of {_loc}
+		teleport player to {_loc}
+		remove resistance from the player
+		apply resistance 50 to the player for 5 second
+		play raw sound "random.orb" at player with pitch 10 volume 0.5
+		wait 2 ticks
+	message "&bOuuf, on t'a sauvé ! Fait attention de ne pas te déconnecter dans la mine à l'avenir !"

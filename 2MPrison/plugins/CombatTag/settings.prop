@@ -1,0 +1,27 @@
+#
+#Mon May 04 04:12:09 EDT 2015
+npcDieAfterTime=true
+npcDespawnTime60=
+tagMessageDamaged=[player] te mets en combat. Ne deco pas.
+blockEditWhileTagged=true
+blockCreativeTagging=true
+Enable-Debugging=false
+dontSpawnInWG=false
+onlyDamagerTagged=false
+Version=6.3.2-SNAPSHOT
+commandMessageTagged=You are in combat for [time] seconds.
+npcDespawnTime=-1
+commandMessageNotTagged=You are not currently in combat.
+disabledCommands=[punir,jail,plot,home,spawn]
+InstaKill=false
+npcName=TueMoi
+sendMessageWhenTagged=true
+blockTeleport=false
+Tag-Duration=15
+disabledWorlds=[exampleWorld,exampleWorld2]
+mobTag=false
+tagMessageDamager=Tu as tape [player]. Si il sagit dun garde il ne te jailra pas... TUE LE \!
+blockEnderPearl=false
+blockFlying=true
+DropTagOnKick=true
+playerTag=true

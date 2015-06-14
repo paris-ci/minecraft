@@ -1,0 +1,433 @@
+Minecraft
+    ** Full Server Tick Time: 53583928715 Count: 3018 Avg: 17754780 Violations: 246
+    Player List Time: 5117244 Count: 3019 Avg: 1695 Violations: 0
+    Connection Handler Time: 528376720 Count: 3019 Avg: 175017 Violations: 1
+    Tickables Time: 1646863 Count: 3019 Avg: 545 Violations: 0
+    Scheduler Time: 3228950107 Count: 3019 Avg: 1069542 Violations: 48
+    ChunkIOTick Time: 86893684 Count: 3019 Avg: 28782 Violations: 0
+    Time Update Time: 39877087 Count: 3019 Avg: 13208 Violations: 0
+    Server Command Time: 6715760 Count: 3019 Avg: 2224 Violations: 0
+    World Save Time: 134964234 Count: 1 Avg: 134964234 Violations: 2
+    ** entityMove Time: 109537899 Count: 6299 Avg: 17389 Violations: 0
+    ** tickEntity Time: 4976140443 Count: 855802 Avg: 5814 Violations: 0
+    ** activatedTickEntity Time: 3627679604 Count: 140171 Avg: 25880 Violations: 0
+    ** tickTileEntity Time: 3705739770 Count: 4627720 Avg: 800 Violations: 0
+    ** livingEntityBaseTick Time: 888421057 Count: 67167 Avg: 13227 Violations: 0
+    ** livingEntityAI Time: 678334872 Count: 67167 Avg: 10099 Violations: 0
+    ** livingEntityAICollision Time: 130790827 Count: 67167 Avg: 1947 Violations: 0
+    ** livingEntityAIMove Time: 1123809064 Count: 67167 Avg: 16731 Violations: 0
+    ** livingEntityTickRest Time: 76534782 Count: 67167 Avg: 1139 Violations: 0
+    processQueue Time: 992546494 Count: 3019 Avg: 328766 Violations: 16
+    ** Plugins Time: 2979974267 Count: 116786 Avg: 25516 Violations: 13
+    ** Scheduler - Sync Tasks Time: 3147729864 Count: 13867 Avg: 226994 Violations: 48
+    ** playerCommand Time: 1226116998 Count: 8 Avg: 153264624 Violations: 23
+    entityActivationCheck Time: 1117687952 Count: 6038 Avg: 185108 Violations: 0
+    ** checkIfActive Time: 581961048 Count: 855802 Avg: 680 Violations: 0
+    Plugin: Vault v1.5.3-b37 Event: net.milkbowl.vault.Vault$VaultListener::onPlayerJoin(PlayerJoinEvent) Time: 114175 Count: 3 Avg: 38058 Violations: 0
+    Plugin: ProtocolLib v3.6.3-SNAPSHOT-b116 Event: com.comphenix.protocol.injector.PacketFilterManager$4::onPlayerLogin(PlayerLoginEvent) Time: 1133477 Count: 3 Avg: 377825 Violations: 0
+    Plugin: ProtocolLib v3.6.3-SNAPSHOT-b116 Event: com.comphenix.protocol.injector.PacketFilterManager$4::onPlayerQuit(PlayerQuitEvent) Time: 196355 Count: 1 Avg: 196355 Violations: 0
+    Plugin: ProtocolLib v3.6.3-SNAPSHOT-b116 Event: com.comphenix.protocol.injector.PacketFilterManager$4::onPrePlayerJoin(PlayerJoinEvent) Time: 953472 Count: 3 Avg: 317824 Violations: 0
+    Plugin: ProtocolLib v3.6.3-SNAPSHOT-b116 Event: com.comphenix.protocol.injector.PacketFilterManager$4::onPlayerJoin(PlayerJoinEvent) Time: 201990 Count: 3 Avg: 67330 Violations: 0
+    Task: ProtocolLib v3.6.3-SNAPSHOT-b116 Runnable: com.comphenix.protocol.ProtocolLibrary$3(interval:1) Time: 109838155 Count: 3019 Avg: 36382 Violations: 0
+    xray - update Time: 112239268 Count: 3276 Avg: 34261 Violations: 1
+    xray - obfuscate Time: 12676746 Count: 2997 Avg: 4229 Violations: 0
+    ** world - mobSpawn Time: 19062352253 Count: 3019 Avg: 6314127 Violations: 89
+    ** world - doChunkUnload Time: 217370906 Count: 3019 Avg: 72000 Violations: 0
+    ** world - doTickPending Time: 42270409 Count: 3019 Avg: 14001 Violations: 0
+    ** world - doTickTiles Time: 4321186364 Count: 3019 Avg: 1431330 Violations: 0
+    ** world - doVillages Time: 31545360 Count: 3019 Avg: 10448 Violations: 0
+    ** world - doChunkMap Time: 317975628 Count: 3019 Avg: 105324 Violations: 1
+    ** world - doPortalForcer Time: 7864884 Count: 3019 Avg: 2605 Violations: 0
+    ** world - entityTick Time: 5544999539 Count: 3019 Avg: 1836700 Violations: 0
+    ** world - tileEntityTick Time: 6728759565 Count: 3019 Avg: 2228804 Violations: 0
+    ** world - tileEntityPending Time: 2217896 Count: 3019 Avg: 734 Violations: 0
+    ** world - chunkLoad - Structures Time: 31984574 Count: 724 Avg: 44177 Violations: 0
+    ** world - chunkLoad - Entities Time: 4109455 Count: 724 Avg: 5676 Violations: 0
+    ** world - chunkLoad - TileEntities Time: 26308248 Count: 724 Avg: 36337 Violations: 0
+    ** world - chunkLoad - TileTicks Time: 293101 Count: 724 Avg: 404 Violations: 0
+    ** world - chunkLoad - Post Time: 2101075 Count: 724 Avg: 2902 Violations: 0
+    world - tracker Time: 1761407557 Count: 3019 Avg: 583440 Violations: 0
+    world - doTick Time: 24281791039 Count: 3019 Avg: 8042991 Violations: 90
+    world - tickEntities Time: 13498137529 Count: 3019 Avg: 4471062 Violations: 0
+    ** world_the_end - doChunkUnload Time: 58373695 Count: 3019 Avg: 19335 Violations: 0
+    ** world_the_end - doTickPending Time: 31462280 Count: 3019 Avg: 10421 Violations: 0
+    ** world_the_end - doTickTiles Time: 53792753 Count: 3019 Avg: 17818 Violations: 0
+    ** world_the_end - doVillages Time: 17870427 Count: 3019 Avg: 5919 Violations: 0
+    ** world_the_end - doChunkMap Time: 8437840 Count: 3019 Avg: 2794 Violations: 0
+    ** world_the_end - doPortalForcer Time: 8037060 Count: 3019 Avg: 2662 Violations: 0
+    ** world_the_end - entityTick Time: 2561686 Count: 3019 Avg: 848 Violations: 0
+    ** world_the_end - tileEntityTick Time: 1471561 Count: 3019 Avg: 487 Violations: 0
+    ** world_the_end - tileEntityPending Time: 1036909 Count: 3019 Avg: 343 Violations: 0
+    world_the_end - tracker Time: 4135120 Count: 3019 Avg: 1369 Violations: 0
+    world_the_end - doTick Time: 253387341 Count: 3019 Avg: 83930 Violations: 0
+    world_the_end - tickEntities Time: 23496676 Count: 3019 Avg: 7782 Violations: 0
+    ** tickEntity - EntityItemFrame Time: 35478864 Count: 51096 Avg: 694 Violations: 0
+    ** tickEntity - EntityPig Time: 1582764308 Count: 32876 Avg: 48143 Violations: 0
+    ** tickEntity - EntityChicken Time: 185931102 Count: 4376 Avg: 42488 Violations: 0
+    ** tickTileEntity - TileEntityMobSpawner Time: 30849338 Count: 27171 Avg: 1135 Violations: 0
+    ** tickEntity - EntityExperienceOrb Time: 68101734 Count: 1600 Avg: 42563 Violations: 0
+    ** tickEntity - EntityRabbit Time: 100299885 Count: 977 Avg: 102661 Violations: 0
+    ** tickEntity - EntitySheep Time: 6987838 Count: 151 Avg: 46277 Violations: 0
+    ** tickEntity - EntitySlime Time: 120557067 Count: 1621 Avg: 74372 Violations: 0
+    ** tickTileEntity - TileEntityFurnace Time: 1505543336 Count: 3405860 Avg: 442 Violations: 0
+    ** tickTileEntity - TileEntityChest Time: 456952790 Count: 965199 Avg: 473 Violations: 0
+    ** tickTileEntity - TileEntityEnderChest Time: 97461360 Count: 220006 Avg: 442 Violations: 0
+    ** tickEntity - EntityItem Time: 97872863 Count: 2181 Avg: 44875 Violations: 0
+    ** tickEntity - EntityPainting Time: 9574917 Count: 18114 Avg: 528 Violations: 0
+    ** tickEntity - EntityZombie Time: 9527799 Count: 124 Avg: 76837 Violations: 0
+    Plugin: WorldEdit v6.0;3342-78f975b9 Event: com.sk89q.worldedit.bukkit.WorldEditListener::onPlayerCommandPreprocess(PlayerCommandPreprocessEvent) Time: 421682 Count: 9 Avg: 46853 Violations: 0
+    Plugin: WorldEdit v6.0;3342-78f975b9 Event: com.sk89q.worldedit.bukkit.WorldEditListener::onPlayerInteract(PlayerInteractEvent) Time: 101589011 Count: 376 Avg: 270183 Violations: 0
+    ** Command: /cut Time: 5433207 Count: 1 Avg: 5433207 Violations: 0
+    ** Command: /set Time: 23416923 Count: 3 Avg: 7805641 Violations: 0
+    ** Command: mc Time: 1462347 Count: 4 Avg: 365586 Violations: 0
+    Plugin: Mineconomy v1.7.3 Event: me.mjolnir.mineconomy.internal.listeners.MCListener::onPlayerJoin(PlayerJoinEvent) Time: 1745165 Count: 3 Avg: 581721 Violations: 0
+    Plugin: UltimateParticles v2.3 Event: me.AgentRiddler.ultimateparticles.particlemenu.ParticleMenu::click(InventoryClickEvent) Time: 540747 Count: 61 Avg: 8864 Violations: 0
+    Plugin: UltimateParticles v2.3 Event: me.AgentRiddler.ultimateparticles.listener.ParticleListener::playerMove(PlayerMoveEvent) Time: 31897138 Count: 9662 Avg: 3301 Violations: 0
+    Plugin: UltimateParticles v2.3 Event: me.AgentRiddler.ultimateparticles.UltimateParticles::join(PlayerJoinEvent) Time: 383218 Count: 3 Avg: 127739 Violations: 0
+    Plugin: UltimateParticles v2.3 Event: me.AgentRiddler.ultimateparticles.UltimateParticles::onPlayerClick(PlayerInteractEvent) Time: 5506140 Count: 376 Avg: 14643 Violations: 0
+    Plugin: UltimateParticles v2.3 Event: me.AgentRiddler.ultimateparticles.UltimateParticles::onBlacklistedCommand(PlayerCommandPreprocessEvent) Time: 168294 Count: 9 Avg: 18699 Violations: 0
+    Plugin: UltimateParticles v2.3 Event: me.AgentRiddler.ultimateparticles.UltimateParticles::onLeave(PlayerQuitEvent) Time: 194459 Count: 1 Avg: 194459 Violations: 0
+    Task: UltimateParticles v2.3 Runnable: me.AgentRiddler.ultimateparticles.particleutility.CoolDownManager(interval:20) Time: 8952898 Count: 150 Avg: 59685 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.PermissionsEx$PlayerEventsListener::onPlayerLogin(PlayerJoinEvent) Time: 111417 Count: 3 Avg: 37139 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.PermissionsEx$PlayerEventsListener::onPlayerQuit(PlayerQuitEvent) Time: 57978 Count: 1 Avg: 57978 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.regexperms.RegexPermissions$EventListener::onPlayerQuit(PlayerQuitEvent) Time: 2626218 Count: 1 Avg: 2626218 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.regexperms.RegexPermissions$EventListener::onPlayerLogin(PlayerLoginEvent) Time: 8140118 Count: 3 Avg: 2713372 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.SuperpermsListener::onPlayerLogin(PlayerLoginEvent) Time: 10827031 Count: 3 Avg: 3609010 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.SuperpermsListener::onPlayerLoginLate(PlayerLoginEvent) Time: 22023 Count: 3 Avg: 7341 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.SuperpermsListener::onPlayerQuit(PlayerQuitEvent) Time: 6442032 Count: 1 Avg: 6442032 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.SuperpermsListener::playerLoginDeny(PlayerLoginEvent) Time: 4835 Count: 3 Avg: 1611 Violations: 0
+    Plugin: PermissionsEx v1.23.2 Event: ru.tehkode.permissions.bukkit.SuperpermsListener::onPlayerJoin(PlayerJoinEvent) Time: 6830451 Count: 3 Avg: 2276817 Violations: 0
+    Plugin: Multiverse-Core v2.4-b527 Event: com.onarandombox.MultiverseCore.listeners.MVPlayerListener::playerJoin(PlayerJoinEvent) Time: 314111 Count: 3 Avg: 104703 Violations: 0
+    Plugin: Multiverse-Core v2.4-b527 Event: com.onarandombox.MultiverseCore.listeners.MVPlayerListener::playerQuit(PlayerQuitEvent) Time: 7730 Count: 1 Avg: 7730 Violations: 0
+    Plugin: Multiverse-Core v2.4-b527 Event: com.onarandombox.MultiverseCore.listeners.MVPlayerListener::playerTeleport(PlayerTeleportEvent) Time: 6446737 Count: 49 Avg: 131566 Violations: 0
+    Plugin: Multiverse-Core v2.4-b527 Event: com.onarandombox.MultiverseCore.listeners.MVPlayerListener::playerRespawn(PlayerRespawnEvent) Time: 38184 Count: 1 Avg: 38184 Violations: 0
+    Plugin: Multiverse-Core v2.4-b527 Event: com.onarandombox.MultiverseCore.listeners.MVPlayerListener::playerChat(PlayerChatEvent) Time: 170162 Count: 28 Avg: 6077 Violations: 0
+    Plugin: Multiverse-Core v2.4-b527 Event: com.onarandombox.MultiverseCore.listeners.MVEntityListener::foodLevelChange(FoodLevelChangeEvent) Time: 663691 Count: 46 Avg: 14428 Violations: 0
+    Plugin: Multiverse-Core v2.4-b527 Event: com.onarandombox.MultiverseCore.listeners.MVEntityListener::creatureSpawn(CreatureSpawnEvent) Time: 1700622 Count: 209 Avg: 8136 Violations: 0
+    Plugin: Multiverse-Core v2.4-b527 Event: com.onarandombox.MultiverseCore.listeners.MVEntityListener::entityRegainHealth(EntityRegainHealthEvent) Time: 343618 Count: 47 Avg: 7311 Violations: 0
+    Plugin: SimpleHelpTickets v1.3.6 Event: me.odium.simplehelptickets.listeners.PListener::onPlayerJoin(PlayerJoinEvent) Time: 753017 Count: 3 Avg: 251005 Violations: 0
+    Task: CombatTag v6.3.2-SNAPSHOT Runnable: com.topcat.npclib.NPCManager$1(interval:1) Time: 22662057 Count: 3019 Avg: 7506 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.topcat.npclib.NPCManager$WL::onChunkLoad(ChunkLoadEvent) Time: 1598274 Count: 724 Avg: 2207 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.NoPvpPlayerListener::onPlayerJoin(PlayerJoinEvent) Time: 13242 Count: 3 Avg: 4414 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.NoPvpPlayerListener::onPlayerQuit(PlayerQuitEvent) Time: 55582 Count: 1 Avg: 55582 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.NoPvpPlayerListener::onPlayerInteract(PlayerInteractEvent) Time: 1628095 Count: 376 Avg: 4330 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.NoPvpPlayerListener::onTeleport(PlayerTeleportEvent) Time: 166435 Count: 49 Avg: 3396 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.NoPvpPlayerListener::onPlayerToggleFly(PlayerToggleFlightEvent) Time: 69963 Count: 12 Avg: 5830 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.NoPvpEntityListener::onEntityDamage(EntityDamageByEntityEvent) Time: 20622 Count: 10 Avg: 2062 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.CombatTagCommandPrevention::onPlayerCommandPreprocess(PlayerCommandPreprocessEvent) Time: 84921 Count: 9 Avg: 9435 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.NoPvpBlockListener::onBlockBreakEvent(BlockBreakEvent) Time: 951552 Count: 139 Avg: 6845 Violations: 0
+    Plugin: CombatTag v6.3.2-SNAPSHOT Event: com.trc202.CombatTagListeners.NoPvpBlockListener::onBlockPlaceEvent(BlockPlaceEvent) Time: 84486 Count: 11 Avg: 7680 Violations: 0
+    Task: WorldGuard v5.9 Runnable: com.sk89q.worldguard.bukkit.FlagStateManager(interval:20) Time: 10826357 Count: 150 Avg: 72175 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerRespawn(PlayerRespawnEvent) Time: 284032645 Count: 1 Avg: 284032645 Violations: 5
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onItemHeldChange(PlayerItemHeldEvent) Time: 512276 Count: 69 Avg: 7424 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerInteract(PlayerInteractEvent) Time: 11461550 Count: 376 Avg: 30482 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerLogin(PlayerLoginEvent) Time: 18979 Count: 3 Avg: 6326 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerTeleport(PlayerTeleportEvent) Time: 10296446 Count: 49 Avg: 210131 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerCommandPreprocess(PlayerCommandPreprocessEvent) Time: 585525 Count: 9 Avg: 65058 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerQuit(PlayerQuitEvent) Time: 727269 Count: 1 Avg: 727269 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerInteractEntity(PlayerInteractEntityEvent) Time: 6817 Count: 1 Avg: 6817 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerPickupItem(PlayerPickupItemEvent) Time: 705243 Count: 117 Avg: 6027 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener::onPlayerJoin(PlayerJoinEvent) Time: 236264 Count: 3 Avg: 78754 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardPlayerListener$PlayerMoveHandler::onPlayerMove(PlayerMoveEvent) Time: 545669169 Count: 9662 Avg: 56475 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardBlockListener::onBlockSpread(BlockSpreadEvent) Time: 42560 Count: 1 Avg: 42560 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardBlockListener::onBlockBreak(BlockBreakEvent) Time: 16660346 Count: 139 Avg: 119858 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardBlockListener::onBlockPhysics(BlockPhysicsEvent) Time: 13097938 Count: 18090 Avg: 724 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardBlockListener::onBlockIgnite(BlockIgniteEvent) Time: 6458 Count: 1 Avg: 6458 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardBlockListener::onBlockExp(BlockExpEvent) Time: 1692740 Count: 139 Avg: 12177 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardBlockListener::onBlockDamage(BlockDamageEvent) Time: 804609 Count: 259 Avg: 3106 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardBlockListener::onBlockPlace(BlockPlaceEvent) Time: 618733 Count: 11 Avg: 56248 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardEntityListener::onCreatureSpawn(CreatureSpawnEvent) Time: 4535332 Count: 209 Avg: 21700 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardEntityListener::onEntityDamage(EntityDamageEvent) Time: 1029045 Count: 19 Avg: 54160 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardEntityListener::onFoodLevelChange(FoodLevelChangeEvent) Time: 1635727 Count: 46 Avg: 35559 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardEntityListener::onEntityRegainHealth(EntityRegainHealthEvent) Time: 157305 Count: 37 Avg: 4251 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardHangingListener::onEntityInteract(PlayerInteractEntityEvent) Time: 4464 Count: 1 Avg: 4464 Violations: 0
+    Plugin: WorldGuard v5.9 Event: com.sk89q.worldguard.bukkit.WorldGuardWorldListener::onChunkLoad(ChunkLoadEvent) Time: 751952 Count: 724 Avg: 1038 Violations: 0
+    Plugin: ParticleMenu v3.0 Event: me.Jaaakee224.ParticleMenu.ParticleMenu::onPlayerInteract(PlayerInteractEvent) Time: 28675357 Count: 376 Avg: 76264 Violations: 0
+    Plugin: ParticleMenu v3.0 Event: me.Jaaakee224.ParticleMenu.ParticleMenu::onInventoryClick(InventoryClickEvent) Time: 2866338 Count: 61 Avg: 46989 Violations: 0
+    Plugin: ParticleMenu v3.0 Event: me.Jaaakee224.ParticleMenu.ParticleMenu::onPlayerLeave(PlayerQuitEvent) Time: 7461 Count: 1 Avg: 7461 Violations: 0
+    Plugin: ParticleMenu v3.0 Event: me.Jaaakee224.ParticleMenu.ParticleMenu::onPlayerJoin(PlayerJoinEvent) Time: 14430224 Count: 3 Avg: 4810074 Violations: 0
+    Plugin: ToolStats v1.1.4 Event: com.gmail.smokyminer.plugins.ToolStats.TS::onBlockBreak(BlockBreakEvent) Time: 12649873 Count: 139 Avg: 91006 Violations: 0
+    Plugin: ToolStats v1.1.4 Event: com.gmail.smokyminer.plugins.ToolStats.TS::hoeStats(PlayerInteractEvent) Time: 1189754 Count: 376 Avg: 3164 Violations: 0
+    Plugin: ToolStats v1.1.4 Event: com.gmail.smokyminer.plugins.ToolStats.TS::onCraft(PrepareItemCraftEvent) Time: 1962959 Count: 18 Avg: 109053 Violations: 0
+    Task: MineResetLite v0.4.3 Runnable: com.koletar.jj.mineresetlite.MineResetLite$1(interval:1200) Time: 13078062 Count: 2 Avg: 6539031 Violations: 0
+    Plugin: ChestCommands v3.1 Event: com.gmail.filoghost.chestcommands.listener.CommandListener::onCommand(PlayerCommandPreprocessEvent) Time: 50944 Count: 9 Avg: 5660 Violations: 0
+    Plugin: ChestCommands v3.1 Event: com.gmail.filoghost.chestcommands.listener.InventoryListener::onQuit(PlayerQuitEvent) Time: 5470 Count: 1 Avg: 5470 Violations: 0
+    Plugin: ChestCommands v3.1 Event: com.gmail.filoghost.chestcommands.listener.InventoryListener::onInventoryClick(InventoryClickEvent) Time: 223022 Count: 61 Avg: 3656 Violations: 0
+    Plugin: ChestCommands v3.1 Event: com.gmail.filoghost.chestcommands.listener.InventoryListener::onInteract(PlayerInteractEvent) Time: 2928589 Count: 376 Avg: 7788 Violations: 0
+    Plugin: ChestCommands v3.1 Event: com.gmail.filoghost.chestcommands.listener.JoinListener::onJoin(PlayerJoinEvent) Time: 14306 Count: 3 Avg: 4768 Violations: 0
+    Plugin: ChestCommands v3.1 Event: com.gmail.filoghost.chestcommands.listener.SignListener::onInteract(PlayerInteractEvent) Time: 1212427 Count: 301 Avg: 4027 Violations: 0
+    Task: ChestCommands v3.1 Runnable: com.gmail.filoghost.chestcommands.task.RefreshMenusTask(interval:2) Time: 23898868 Count: 1509 Avg: 15837 Violations: 0
+    Plugin: BanManager v5.3.0 Event: me.confuser.banmanager.listeners.JoinListener::onPlayerLogin(PlayerLoginEvent) Time: 62617 Count: 3 Avg: 20872 Violations: 0
+    Plugin: BanManager v5.3.0 Event: me.confuser.banmanager.listeners.JoinListener::onJoin(PlayerJoinEvent) Time: 47139 Count: 3 Avg: 15713 Violations: 0
+    Plugin: BanManager v5.3.0 Event: me.confuser.banmanager.listeners.LeaveListener::onLeave(PlayerQuitEvent) Time: 28181 Count: 1 Avg: 28181 Violations: 0
+    Plugin: BanManager v5.3.0 Event: me.confuser.banmanager.listeners.CommandListener::onCommand(PlayerCommandPreprocessEvent) Time: 55744 Count: 9 Avg: 6193 Violations: 0
+    Task: HolographicDisplays v2.1.9 Runnable: com.gmail.filoghost.holographicdisplays.placeholder.PlaceholdersManager$1(interval:2) Time: 23629149 Count: 1509 Avg: 15658 Violations: 0
+    Task: HolographicDisplays v2.1.9 Runnable: com.gmail.filoghost.holographicdisplays.bridge.bungeecord.BungeeServerTracker$1(interval:60) Time: 484512 Count: 51 Avg: 9500 Violations: 0
+    Task: HolographicDisplays v2.1.9 Runnable: com.gmail.filoghost.holographicdisplays.task.BungeeCleanupTask(interval:6000) Time: 6501 Count: 1 Avg: 6501 Violations: 0
+    Task: HolographicDisplays v2.1.9 Runnable: com.gmail.filoghost.holographicdisplays.task.WorldPlayerCounterTask(interval:60) Time: 7933792 Count: 51 Avg: 155564 Violations: 0
+    Plugin: HolographicDisplays v2.1.9 Event: com.gmail.filoghost.holographicdisplays.listener.MainListener::onItemSpawn(ItemSpawnEvent) Time: 799942 Count: 145 Avg: 5516 Violations: 0
+    Plugin: HolographicDisplays v2.1.9 Event: com.gmail.filoghost.holographicdisplays.listener.MainListener::onCreatureSpawn(CreatureSpawnEvent) Time: 694466 Count: 209 Avg: 3322 Violations: 0
+    Plugin: HolographicDisplays v2.1.9 Event: com.gmail.filoghost.holographicdisplays.listener.MainListener::onChunkLoad(ChunkLoadEvent) Time: 1874647 Count: 724 Avg: 2589 Violations: 0
+    Plugin: HolographicDisplays v2.1.9 Event: com.gmail.filoghost.holographicdisplays.listener.MainListener::onChunkUnload(ChunkUnloadEvent) Time: 2398618 Count: 503 Avg: 4768 Violations: 0
+    Plugin: HolographicDisplays v2.1.9 Event: com.gmail.filoghost.holographicdisplays.listener.MainListener::onLeave(PlayerQuitEvent) Time: 3297 Count: 1 Avg: 3297 Violations: 0
+    Plugin: HolographicDisplays v2.1.9 Event: com.gmail.filoghost.holographicdisplays.listener.MainListener::onSlimeInteract(PlayerInteractEntityEvent) Time: 2363 Count: 1 Avg: 2363 Violations: 0
+    Plugin: HolographicDisplays v2.1.9 Event: com.gmail.filoghost.holographicdisplays.listener.MainListener::onJoin(PlayerJoinEvent) Time: 8142 Count: 3 Avg: 2714 Violations: 0
+    Plugin: Rankup v1.3 Event: com.fvza.rankup.bukkit.ListenerSign::onPlayerInteract(PlayerInteractEvent) Time: 1556507 Count: 376 Avg: 4139 Violations: 0
+    Plugin: Rankup v1.3 Event: com.fvza.rankup.bukkit.ListenerSign::onBlockBreak(BlockBreakEvent) Time: 631633 Count: 139 Avg: 4544 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerJoin(PlayerJoinEvent) Time: 35505 Count: 3 Avg: 11835 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerPickupItem(PlayerPickupItemEvent) Time: 781468 Count: 117 Avg: 6679 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerQuit(PlayerQuitEvent) Time: 1134350 Count: 1 Avg: 1134350 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerTeleport(PlayerTeleportEvent) Time: 736292 Count: 49 Avg: 15026 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerCommandPreprocess(PlayerCommandPreprocessEvent) Time: 311790 Count: 9 Avg: 34643 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onInventoryClickEvent(InventoryClickEvent) Time: 1167892 Count: 61 Avg: 19145 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerMove(PlayerMoveEvent) Time: 30036644 Count: 9662 Avg: 3108 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerLogin(PlayerLoginEvent) Time: 9250 Count: 3 Avg: 3083 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerRespawn(PlayerRespawnEvent) Time: 52864 Count: 1 Avg: 52864 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onInventoryCloseEvent(InventoryCloseEvent) Time: 253352 Count: 18 Avg: 14075 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsPlayerListener::onPlayerInteract(PlayerInteractEvent) Time: 5060464 Count: 376 Avg: 13458 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsBlockListener::onBlockPlace(BlockPlaceEvent) Time: 291506 Count: 11 Avg: 26500 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsEntityListener::onEntityDamage(EntityDamageEvent) Time: 288967 Count: 19 Avg: 15208 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsEntityListener::onEntityDamage(EntityDamageByEntityEvent) Time: 387533 Count: 10 Avg: 38753 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsEntityListener::onFoodLevelChange(FoodLevelChangeEvent) Time: 923599 Count: 46 Avg: 20078 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.EssentialsEntityListener::onEntityRegainHealth(EntityRegainHealthEvent) Time: 1023151 Count: 47 Avg: 21769 Violations: 0
+    Task: Essentials vTeamCity Runnable: com.earth2me.essentials.EssentialsTimer(interval:50) Time: 7368911 Count: 60 Avg: 122815 Violations: 0
+    Task: AsyncWorldEdit v2.1.5 Runnable: org.primesoft.asyncworldedit.blockPlacer.BlockPlacerTask$1(interval:15) Time: 392850754 Count: 201 Avg: 1954481 Violations: 5
+    Plugin: AsyncWorldEdit v2.1.5 Event: org.primesoft.asyncworldedit.EventListener::onPlayerJoin(PlayerJoinEvent) Time: 796736 Count: 3 Avg: 265578 Violations: 0
+    Plugin: AsyncWorldEdit v2.1.5 Event: org.primesoft.asyncworldedit.EventListener::onPlayerQuit(PlayerQuitEvent) Time: 14995 Count: 1 Avg: 14995 Violations: 0
+    Plugin: AsyncWorldEdit v2.1.5 Event: org.primesoft.asyncworldedit.PhysicsWatch::onBlockPhysicsEvent(BlockPhysicsEvent) Time: 21927183 Count: 18090 Avg: 1212 Violations: 0
+    Plugin: AsyncWorldEdit v2.1.5 Event: org.primesoft.asyncworldedit.PhysicsWatch::onBlockIgniteEvent(BlockIgniteEvent) Time: 8904 Count: 1 Avg: 8904 Violations: 0
+    Plugin: AsyncWorldEdit v2.1.5 Event: org.primesoft.asyncworldedit.PhysicsWatch::onBlockSpreadEvent(BlockSpreadEvent) Time: 12296 Count: 1 Avg: 12296 Violations: 0
+    Plugin: AsyncWorldEdit v2.1.5 Event: org.primesoft.asyncworldedit.ChunkWatch::onChunkUnloadEvent(ChunkUnloadEvent) Time: 2266852 Count: 503 Avg: 4506 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.NoCheatPlus$5::onPlayerJoinLowest(PlayerJoinEvent) Time: 959078 Count: 3 Avg: 319692 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.NoCheatPlus$5::onPlayerLogin(PlayerLoginEvent) Time: 262960 Count: 3 Avg: 87653 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.NoCheatPlus$5::onPlayerQuit(PlayerQuitEvent) Time: 183677 Count: 1 Avg: 183677 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.NoCheatPlus$5::onPlayerJoinLow(PlayerJoinEvent) Time: 3111290 Count: 3 Avg: 1037096 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.players.DataManager::onPlayerQuit(PlayerQuitEvent) Time: 16410 Count: 1 Avg: 16410 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.players.DataManager::onPlayerJoin(PlayerJoinEvent) Time: 30616 Count: 3 Avg: 10205 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockinteract.BlockInteractListener::onPlayerInteract(PlayerInteractEvent) Time: 64387007 Count: 376 Avg: 171242 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockbreak.BlockBreakListener::onItemHeld(PlayerItemHeldEvent) Time: 1334431 Count: 69 Avg: 19339 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockbreak.BlockBreakListener::onBlockDamage(BlockDamageEvent) Time: 2508868 Count: 259 Avg: 9686 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockbreak.BlockBreakListener::onBlockBreak(BlockBreakEvent) Time: 17987242 Count: 139 Avg: 129404 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockbreak.BlockBreakListener::onBlockDamageLowest(BlockDamageEvent) Time: 786786 Count: 259 Avg: 3037 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockbreak.BlockBreakListener::onPlayerInteract(PlayerInteractEvent) Time: 4842954 Count: 376 Avg: 12880 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockbreak.BlockBreakListener::onPlayerAnimation(PlayerAnimationEvent) Time: 20478060 Count: 2881 Avg: 7107 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockplace.BlockPlaceListener::onPlayerAnimation(PlayerAnimationEvent) Time: 11345278 Count: 2881 Avg: 3937 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockplace.BlockPlaceListener::onPlayerInteract(PlayerInteractEvent) Time: 983995 Count: 313 Avg: 3143 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.blockplace.BlockPlaceListener::onBlockPlace(BlockPlaceEvent) Time: 704452 Count: 11 Avg: 64041 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.chat.ChatListener::onPlayerCommandPreprocess(PlayerCommandPreprocessEvent) Time: 989905 Count: 9 Avg: 109989 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.chat.ChatListener::onPlayerLogin(PlayerLoginEvent) Time: 101874 Count: 3 Avg: 33958 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.combined.CombinedListener::onEntityDamage(EntityDamageEvent) Time: 216984 Count: 19 Avg: 11420 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.combined.CombinedListener::onPlayerJoin(PlayerJoinEvent) Time: 19411 Count: 3 Avg: 6470 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.combined.CombinedListener::onPlayerToggleSprintHighest(PlayerToggleSprintEvent) Time: 3261898 Count: 351 Avg: 9293 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.combined.CombinedListener::onPlayerToggleSneak(PlayerToggleSneakEvent) Time: 619563 Count: 80 Avg: 7744 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.fight.FightListener::onItemHeld(PlayerItemHeldEvent) Time: 782796 Count: 69 Avg: 11344 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.fight.FightListener::onEntityDamage(EntityDamageEvent) Time: 2528509 Count: 19 Avg: 133079 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.fight.FightListener::onPlayerAnimation(PlayerAnimationEvent) Time: 11048364 Count: 2881 Avg: 3834 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.fight.FightListener::onEntityRegainHealth(EntityRegainHealthEvent) Time: 370810 Count: 37 Avg: 10021 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.fight.FightListener::onEntityRegainHealthLow(EntityRegainHealthEvent) Time: 2039657 Count: 47 Avg: 43396 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.fight.FightListener::onEntityDamageMonitor(EntityDamageEvent) Time: 427955 Count: 19 Avg: 22523 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.inventory.InventoryListener::onPlayerInteractEntity(PlayerInteractEntityEvent) Time: 9222 Count: 1 Avg: 9222 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.inventory.InventoryListener::onPlayerTeleport(PlayerTeleportEvent) Time: 1381159 Count: 49 Avg: 28186 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.inventory.InventoryListener::onFoodLevelChange(FoodLevelChangeEvent) Time: 655375 Count: 46 Avg: 14247 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.inventory.InventoryListener::onInventoryClick(InventoryClickEvent) Time: 1670794 Count: 61 Avg: 27390 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.inventory.InventoryListener::onItemHeldChange(PlayerItemHeldEvent) Time: 635539 Count: 69 Avg: 9210 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.inventory.InventoryListener::onPlayerInteract(PlayerInteractEvent) Time: 1572398 Count: 376 Avg: 4181 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onPlayerToggleSprint(PlayerToggleSprintEvent) Time: 1313960 Count: 351 Avg: 3743 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onPlayerTeleport(PlayerTeleportEvent) Time: 979914 Count: 49 Avg: 19998 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onPlayerToggleSneak(PlayerToggleSneakEvent) Time: 536229 Count: 80 Avg: 6702 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onBlockPlace(BlockPlaceEvent) Time: 193998 Count: 11 Avg: 17636 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onPlayerRespawn(PlayerRespawnEvent) Time: 89168 Count: 1 Avg: 89168 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onPlayerVelocity(PlayerVelocityEvent) Time: 214007 Count: 9 Avg: 23778 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onPlayerMoveMonitor(PlayerMoveEvent) Time: 32552260 Count: 9662 Avg: 3369 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onEntityDamage(EntityDamageEvent) Time: 311515 Count: 19 Avg: 16395 Violations: 0
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.moving.MovingListener::onPlayerMove(PlayerMoveEvent) Time: 692653159 Count: 9662 Avg: 71688 Violations: 1
+    Plugin: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Event: fr.neatmonster.nocheatplus.checks.inventory.FastConsume::onItemConsume(PlayerItemConsumeEvent) Time: 946041 Count: 10 Avg: 94604 Violations: 0
+    Task: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Runnable: fr.neatmonster.nocheatplus.utilities.TickTask(interval:1) Time: 64898633 Count: 3019 Avg: 21496 Violations: 0
+    Task: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Runnable: fr.neatmonster.nocheatplus.NoCheatPlus$2(interval:1207) Time: 5526 Count: 2 Avg: 2763 Violations: 0
+    Task: NoCheatPlus v3.12.1-SNAPSHOT-sMD5NET-b815 Runnable: fr.neatmonster.nocheatplus.NoCheatPlus$6(interval:200) Time: 1094024 Count: 15 Avg: 72934 Violations: 0
+    Plugin: Multiverse-Portals v2.5-bUNKNOWN Event: com.onarandombox.MultiversePortals.listeners.MVPPlayerListener::playerInteract(PlayerInteractEvent) Time: 4861588 Count: 376 Avg: 12929 Violations: 0
+    Plugin: Multiverse-Portals v2.5-bUNKNOWN Event: com.onarandombox.MultiversePortals.listeners.MVPPlayerListener::playerTeleport(PlayerTeleportEvent) Time: 354100 Count: 49 Avg: 7226 Violations: 0
+    Plugin: Multiverse-Portals v2.5-bUNKNOWN Event: com.onarandombox.MultiversePortals.listeners.MVPBlockListener::blockPhysics(BlockPhysicsEvent) Time: 9997300 Count: 18090 Avg: 552 Violations: 0
+    Plugin: Multiverse-Portals v2.5-bUNKNOWN Event: com.onarandombox.MultiversePortals.listeners.MVPPlayerMoveListener::playerMove(PlayerMoveEvent) Time: 98256045 Count: 9662 Avg: 10169 Violations: 0
+    Plugin: EssentialsGeoIP vTeamCity Event: com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener::onPlayerJoin(PlayerJoinEvent) Time: 24628 Count: 3 Avg: 8209 Violations: 0
+    ** tickTileEntity - TileEntityBrewingStand Time: 28920795 Count: 6038 Avg: 4789 Violations: 0
+    ** tickTileEntity - TileEntityEnchantTable Time: 5831138 Count: 427 Avg: 13656 Violations: 0
+    ** tickTileEntity - TileEntityBeacon Time: 23453355 Count: 3019 Avg: 7768 Violations: 0
+    Task: SignShop v2.10.0 Runnable: org.wargamer2010.signshop.timing.TimeManager(interval:20) Time: 2257544939 Count: 151 Avg: 14950628 Violations: 43
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.SignShopLoginListener::onPluginEnabled(PlayerJoinEvent) Time: 28721 Count: 3 Avg: 9573 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.SignShopPlayerListener::SSBugFix(BlockPlaceEvent) Time: 64553 Count: 11 Avg: 5868 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.SignShopPlayerListener::onPlayerInteract(PlayerInteractEvent) Time: 126755059 Count: 376 Avg: 337114 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.SignShopPlayerListener::onEntityDamageByEntity(EntityDamageByEntityEvent) Time: 289655 Count: 10 Avg: 28965 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.SignShopPlayerListener::onPlayerVillagerTrade(PlayerInteractEntityEvent) Time: 20727 Count: 1 Avg: 20727 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.SignShopBlockListener::onBlockBreak(BlockBreakEvent) Time: 19490708 Count: 139 Avg: 140220 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.SimpleBlacklister::onSSPreTransactionEvent(SSPreTransactionEvent) Time: 88523 Count: 4 Avg: 22130 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.SimpleRestricter::onSSPreTransactionEvent(SSPreTransactionEvent) Time: 61183 Count: 4 Avg: 15295 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.PermissionChecker::onSSPreTransactionEvent(SSPreTransactionEvent) Time: 1582650 Count: 4 Avg: 395662 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.PermitChecker::onSSPreTransactionEvent(SSPreTransactionEvent) Time: 3097773 Count: 4 Avg: 774443 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.GetPriceFromWorth::onSSMoneyTransactionEvent(SSMoneyTransactionEvent) Time: 7678 Count: 1 Avg: 7678 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.ShopCooldown::onSSPreTransactionEvent(SSPreTransactionEvent) Time: 13576 Count: 4 Avg: 3394 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.StockChecker::onSSPreTransactionEvent(SSPreTransactionEvent) Time: 9229 Count: 4 Avg: 2307 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.MoneyModifierListener::onSSMoneyTransactionEvent(SSMoneyTransactionEvent) Time: 620010 Count: 1 Avg: 620010 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.DefaultMoneyTransaction::onSSMoneyTransaction(SSMoneyTransactionEvent) Time: 388277 Count: 1 Avg: 388277 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.BankTransaction::onSSMoneyTransaction(SSMoneyTransactionEvent) Time: 9817 Count: 1 Avg: 9817 Violations: 0
+    Plugin: SignShop v2.10.0 Event: org.wargamer2010.signshop.listeners.sslisteners.SharedMoneyTransaction::onSSMoneyTransaction(SSMoneyTransactionEvent) Time: 4116 Count: 1 Avg: 4116 Violations: 0
+    Plugin: JSONAPI v5.6.0 Event: com.alecgorge.minecraft.jsonapi.JSONAPI$JSONAPIPlayerListener::onPlayerQuit(PlayerQuitEvent) Time: 87248 Count: 1 Avg: 87248 Violations: 0
+    Plugin: JSONAPI v5.6.0 Event: com.alecgorge.minecraft.jsonapi.JSONAPI$JSONAPIPlayerListener::onPlayerJoin(PlayerJoinEvent) Time: 302357 Count: 3 Avg: 100785 Violations: 0
+    Task: JSONAPI v5.6.0 Runnable: com.alecgorge.minecraft.jsonapi.util.TickRateCounter$TickRateRepeater(interval:600) Time: 44464 Count: 5 Avg: 8892 Violations: 0
+    Task: JSONAPI v5.6.0 Runnable: com.alecgorge.minecraft.jsonapi.streams.PerformanceStreamDataProvider(interval:100) Time: 6364498 Count: 30 Avg: 212149 Violations: 0
+    Plugin: CombatIndicator v2.0.5 Event: me.coder.combatindicator.g::a(EntityDamageEvent) Time: 817879 Count: 9 Avg: 90875 Violations: 0
+    Plugin: CombatIndicator v2.0.5 Event: me.coder.combatindicator.g::a(EntityRegainHealthEvent) Time: 634459200 Count: 37 Avg: 17147545 Violations: 7
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.Jails$JailListener::onJailBlockPlace(BlockPlaceEvent) Time: 126314 Count: 11 Avg: 11483 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.Jails$JailListener::onJailPlayerRespawn(PlayerRespawnEvent) Time: 22930 Count: 1 Avg: 22930 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.Jails$JailListener::onJailBlockDamage(BlockDamageEvent) Time: 2672046 Count: 259 Avg: 10316 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.Jails$JailListener::onJailPlayerJoin(PlayerJoinEvent) Time: 53921 Count: 3 Avg: 17973 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.Jails$JailListener::onJailPlayerTeleport(PlayerTeleportEvent) Time: 311916 Count: 49 Avg: 6365 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.Jails$JailListener::onJailBlockBreak(BlockBreakEvent) Time: 2621952 Count: 139 Avg: 18862 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.Jails$JailListener::onJailEntityDamageByEntity(EntityDamageByEntityEvent) Time: 87331 Count: 10 Avg: 8733 Violations: 0
+    Plugin: Essentials vTeamCity Event: com.earth2me.essentials.Jails$JailListener::onJailPlayerInteract(PlayerInteractEvent) Time: 6202842 Count: 313 Avg: 19817 Violations: 0
+    ** tickEntity - EntityPlayer Time: 1360399009 Count: 26085 Avg: 52152 Violations: 0
+    Task: Multiverse-Core v2.4-b527 Runnable: com.onarandombox.MultiverseCore.listeners.MVPlayerListener$2(Single) Time: 117504 Count: 1 Avg: 117504 Violations: 0
+    Task: Essentials vTeamCity Runnable: com.earth2me.essentials.EssentialsPlayerListener$1DelayJoinTask(Single) Time: 11600203 Count: 3 Avg: 3866734 Violations: 0
+    Task: WorldEdit v6.0;3342-78f975b9 Runnable: com.sk89q.worldedit.bukkit.WorldEditListener$1(Single) Time: 585835 Count: 225 Avg: 2603 Violations: 0
+    Task: Essentials vTeamCity Runnable: com.earth2me.essentials.EssentialsPlayerListener$4(Single) Time: 109502 Count: 1 Avg: 109502 Violations: 0
+    ** tickEntity - EntityNMSArmorStand Time: 1268575 Count: 970 Avg: 1307 Violations: 0
+    Task: CombatIndicator v2.0.5 Runnable: me.coder.combatindicator.l(interval:2) Time: 178191929 Count: 693 Avg: 257131 Violations: 0
+# Version git-Spigot-2ec6f06-7722428 (MC: 1.8.3)
+# Entities 281
+# LivingEntities 245
+Sample time 157048522990 (157.04852299s)
+<spigotConfig>
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 8
+stats:
+  disable-saving: false
+  forced-stats: {}
+commands:
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  tab-complete: 0
+settings:
+  bungeecord: false
+  late-bind: false
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
+  sample-count: 12
+  player-shuffle: 0
+  filter-creative-items: true
+  user-cache-size: 1000
+  int-cache-limit: 1024
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-threshold: 100.0
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  save-user-cache-on-stop-only: false
+  debug: false
+messages:
+  restart: Server is restarting
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+world-settings:
+  default:
+    verbose: true
+    chunks-per-tick: 650
+    clear-tick-list: false
+    zombie-aggressive-towards-villager: true
+    hanging-tick-frequency: 100
+    wither-spawn-sound-radius: 0
+    view-distance: 10
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
+    mob-spawn-range: 4
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    nerf-spawner-mobs: false
+    merge-radius:
+      exp: 3.0
+      item: 2.5
+    item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
+
+</spigotConfig>

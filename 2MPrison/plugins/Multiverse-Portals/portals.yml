@@ -1,0 +1,517 @@
+portals:
+  starter:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -27.0,4.0,-4.0:-27.0,7.0,4.0
+    world: world
+    destination: p:D
+  Dbois:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -73.0,11.0,-44.0:-73.0,14.0,-31.0
+    world: world
+    destination: p:D
+  Dmine:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -80.0,12.0,-15.0:-73.0,13.0,-15.0
+    world: world
+    destination: p:D
+  C:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -165.0,4.0,-6.0:-165.0,7.0,-1.0
+    world: world
+    destination: p:Chub
+  Cmine:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -177.0,12.0,-14.0:-164.0,14.0,-14.0
+    world: world
+    destination: p:C
+  B:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -96.0,4.0,106.0:-96.0,6.0,110.0
+    world: world
+    destination: p:Bhub
+  JtoCj:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -188.0,4.0,-98.0:-186.0,5.0,-98.0
+    world: world
+    destination: p:CjtoJ
+  CjtoJ:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -202.0,4.0,-47.0:-198.0,5.0,-47.0
+    world: world
+    destination: p:JtoCj
+  Cmine3:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -239.0,12.0,6.0:-230.0,14.0,6.0
+    world: world
+    destination: p:C
+  farm:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -55.0,4.0,-109.0:-55.0,7.0,-103.0
+    world: world
+    destination: p:Dfarm
+  Dfarm:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -85.0,4.0,-4.0:-83.0,5.0,-4.0
+    world: world
+    destination: p:farm
+  Acb:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -455.0,0.0,-117.0:-314.0,0.0,17.0
+    world: world
+    destination: p:AcbS
+  A:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -387.0,145.0,-46.0:-385.0,145.0,-42.0
+    world: world
+    destination: p:Ahub
+  Ancb:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -455.0,3.0,-117.0:-314.0,3.0,17.0
+    world: world
+    destination: p:A
+  AcbS:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -367.0,20.0,136.0:-365.0,20.0,136.0
+    world: world
+  AcbToA:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -353.0,12.0,124.0:-353.0,14.0,126.0
+    world: world
+    destination: p:A
+  spleef:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -208.0,4.0,-84.0:-208.0,5.0,-82.0
+    world: world
+    destination: p:Dhub
+  '1':
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -228.0,4.0,-179.0:-228.0,6.0,-175.0
+    world: world
+    destination: p:1hub
+  Bmine:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 58.0,26.0,-119.0:62.0,28.0,-119.0
+    world: world
+    destination: p:B
+  Btomine:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -104.0,3.0,107.0:-102.0,3.0,109.0
+    world: world
+    destination: p:Bmine
+  1toPlot:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -222.0,3.0,-177.0:-222.0,3.0,-175.0
+    world: world
+    destination: p:Plotto1
+  Plotto1:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 0.0,65.0,-3.0:0.0,68.0,3.0
+    world: plotworld
+    destination: p:1hub
+  D:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -73.0,4.0,-12.0:-73.0,7.0,-7.0
+    world: world
+    destination: p:Dhub
+  Dhub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 3.0,17.0,110.0:7.0,19.0,110.0
+    world: world
+    destination: p:D
+  Chub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -5.0,17.0,110.0:-1.0,19.0,110.0
+    world: world
+    destination: p:C
+  Bhub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -12.0,17.0,110.0:-8.0,19.0,110.0
+    world: world
+    destination: p:B
+  Ahub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -19.0,17.0,110.0:-15.0,19.0,110.0
+    world: world
+    destination: p:A
+  1hub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -26.0,17.0,110.0:-22.0,19.0,110.0
+    world: world
+    destination: p:1
+  AtoHub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -387.0,51.0,-31.0:-385.0,51.0,-31.0
+    world: world
+    destination: p:Ahub
+  2hub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -33.0,17.0,110.0:-29.0,19.0,110.0
+    world: world
+    destination: p:2
+  '2':
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -279.0,12.0,-184.0:-279.0,14.0,-180.0
+    world: world
+    destination: p:2hub
+  Bcb:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -348.0,18.0,-261.0:-348.0,19.0,-259.0
+    world: world
+    destination: p:BtoCb
+  BtoCb:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -323.0,4.0,-167.0:-320.0,6.0,-167.0
+    world: world
+    destination: p:Bcb
+  Hubtoplot:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -26.0,21.0,111.0:-22.0,23.0,111.0
+    world: world
+    destination: p:Plotto1
+  '4':
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 140.0,24.0,-294.0:140.0,26.0,-290.0
+    world: world
+    destination: p:4hub
+  4hub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -36.0,17.0,97.0:-36.0,19.0,101.0
+    world: world
+    destination: p:4
+  '3':
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 230.0,37.0,-363.0:234.0,39.0,-363.0
+    world: world
+    destination: p:3hub
+  3hub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -36.0,17.0,103.0:-36.0,19.0,107.0
+    world: world
+    destination: p:3
+  newspawn:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 20.0,68.0,415.0:20.0,69.0,419.0
+    world: world
+    destination: p:D
+  tntrun:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -82.0,26.0,-233.0:-82.0,30.0,-228.0
+    world: world
+    destination: p:Dhub
+  tntrun2:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -81.0,5.0,-234.0:-81.0,9.0,-228.0
+    world: world
+    destination: p:Dhub
+  arenepvp:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: -108.0,10.0,569.0:-105.0,12.0,569.0
+    world: world
+    destination: p:hubarenepvp
+  hubarenepvp:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 12.0,17.0,110.0:15.0,19.0,110.0
+    world: world
+    destination: p:arenepvp
+  4tocb:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 126.0,47.0,-278.0:128.0,48.0,-278.0
+    world: world
+    destination: p:4cbto4
+  4cbto4:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 137.0,3.0,-221.0:140.0,5.0,-221.0
+    world: world
+    destination: p:4tocb
+  4to4mine:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 57.0,9.0,-339.0:62.0,13.0,-339.0
+    world: world
+    destination: p:4mine
+  4mine:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Eyesofcreeper
+    location: 16.0,19.0,-285.0:16.0,23.0,-281.0
+    world: world
+    destination: p:4to4mine

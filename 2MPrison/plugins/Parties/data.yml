@@ -1,0 +1,182 @@
+spies:
+- Eyesofcreeper
+players:
+  GuilianCD: Crepe
+  geek75: geek75
+  fudi112: shiki
+  GNEUUUU: PATATA
+  Ppito: PATATA
+  Black_Pandaa: PATATA
+  The7Tane: shiki
+  Reflexteqno68: PATATA
+  combattant31: tator
+  Hykee: shiki
+  Aquaar: BaliBalo
+  Toto731200: tator
+  Right4Life: shiki
+  pepi20022: PATATA
+  mistermax71: Reylix
+  link7130: OvnI
+  Florian122012: NySaints
+  LunarAircraft: LunarTeam
+  antonyot: PATATA
+  zelgot: shiki
+  Games_C: lesNotch
+  NathouLaLegende: shiki
+  trotistyle: traxeo
+  Omega_Zandalor: shiki
+  Goboumat: fudi112
+  traxeo: traxeo
+  Scorxy: traxeo
+  jailradjou: Yop
+  montcourtcraft: tator
+  TheCarnage2002: TheWarior
+  Gamer_06600: TeamPanda
+  pgtfgt: TeamPanda
+  cristo0526: TeamPanda
+parties:
+  Crepe:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - GuilianCD
+    members: []
+  geek75:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - geek75
+    members: []
+  shiki:
+    desc: on est fort
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - fudi112
+    members:
+    - The7Tane
+    - Hykee
+    - Right4Life
+    - zelgot
+    - NathouLaLegende
+    - Omega_Zandalor
+  PATATA:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - GNEUUUU
+    members:
+    - Ppito
+    - Black_Pandaa
+    - Reflexteqno68
+    - pepi20022
+    - antonyot
+  tator:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - combattant31
+    members:
+    - Toto731200
+    - montcourtcraft
+  BaliBalo:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - Aquaar
+    members: []
+  Reylix:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - mistermax71
+    members: []
+  OvnI:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - link7130
+    members: []
+  NySaints:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - Florian122012
+    members: []
+  LunarTeam:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - LunarAircraft
+    members: []
+  lesNotch:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - Games_C
+    members: []
+  traxeo:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - trotistyle
+    members:
+    - traxeo
+    - Scorxy
+  fudi112:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - Goboumat
+    members: []
+  Yop:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - jailradjou
+    members: []
+  TheWarior:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - TheCarnage2002
+    members: []
+  TeamPanda:
+    desc: ''
+    motd: ''
+    prefix: ''
+    suffix: ''
+    leaders:
+    - Gamer_06600
+    members:
+    - pgtfgt
+    - cristo0526

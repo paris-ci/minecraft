@@ -1,0 +1,63 @@
+# This is the commands configuration file for Bukkit.
+# For documentation on how to make use of this file, check out the Bukkit Wiki at
+# http://wiki.bukkit.org/Commands.yml
+# 
+# If you need help on this file, feel free to join us on irc or leave a message
+# on the forums asking for advice.
+# 
+# IRC: #spigot @ irc.spi.gt
+#    (If this means nothing to you, just go to http://irc.spi.gt/iris/?nick=&channels=spigot )
+# Forums: http://www.spigotmc.org/forums/help.40/
+# Bug tracker: http://www.spigotmc.org/forums/bugs-feature-requests.8/
+
+command-block-overrides: []
+aliases:
+  icanhasbukkit:
+  - version $1
+  punir:
+  - msg $$1 Désolé mais vous avez enfrunt les regles de la prison
+  - msg $$1 Je vais devoir vous emprisonner 2 minutes en cellule d'isolement
+  - minecraft:clear $$1 arrow
+  - minecraft:clear $$1 bow
+  - minecraft:clear $$1 wood_sword
+  - minecraft:clear $$1 stone_sword
+  - minecraft:clear $$1 iron_sword
+  - minecraft:clear $$1 diamond_sword
+  - minecraft:clear $$1 diamond_helmet
+  - minecraft:clear $$1 diamond_chestplate
+  - minecraft:clear $$1 diamond_leggings
+  - minecraft:clear $$1 diamond_boots
+  - minecraft:clear $$1 iron_helmet
+  - minecraft:clear $$1 iron_chestplate
+  - minecraft:clear $$1 iron_leggings
+  - minecraft:clear $$1 iron_boots
+  - minecraft:clear $$1 golden_helmet
+  - minecraft:clear $$1 golden_chestplate
+  - minecraft:clear $$1 golden_leggings
+  - minecraft:clear $$1 golden_boots
+  - minecraft:clear $$1 chainmail_helmet
+  - minecraft:clear $$1 chainmail_chestplate
+  - minecraft:clear $$1 chainmail_leggings
+  - minecraft:clear $$1 chainmail_boots
+  - minecraft:clear $$1 tnt
+  - minecraft:clear $$1 fishing_rod
+  - minecraft:clear $$1 golden_apple
+  - jail $$1 jail 120
+  - spawn $$1
+  - msg $$1 Soit sage a l'avenir !
+  pasdepvp:
+  - msg $$1 PVP interdit. Si tu continues je vais devoir sévir. (Regles prison a ne respecter que devant les gardes)
+  ungarde:
+  - msg $$1 Je suis un garde. Devant moi tu dois respecter les regles de la prison...
+  combat:
+  - msg $$1 Pour tuer il faut que tu ne te fasse pas reperrer par les gardes.
+  - msg $$1 En gros devant les gardes tu doit respecter les règles de la prison.
+  - msg $$1 Mais si il n'y a pas de garde tu peut les enfreindre
+  - msg $$1 Neanmoins les regles du serveur sont a respecter en permanance
+  youtube:
+  - ticket EYESOFCREEPER Je demande le grade YOUTUBER.
+  travail:
+  - upack witch
+  reset:
+  - pex user $$1 group set d
+  - mc delete $$1

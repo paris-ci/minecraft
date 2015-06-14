@@ -1,0 +1,29 @@
+# === MineConomy Configuration ===
+# 
+#     
+
+Balance:
+  Starting Balance: 0.0
+  Max Debt: 0.0
+  Max Balance: 9999999.99
+Display GUI: false
+Warn Ops: true
+Log Priority: 4
+Interest:
+  Amount: 0.0
+  Interval: 0
+  Mode: none
+Tax:
+  Amount: 0.0
+  Interval: 0
+  Mode: none
+Database:
+  URL: ''
+  Name: ''
+  Username: ''
+  Password: ''
+  Type: none
+Lang: en
+Auto-Save Interval: 3600
+iConomy Compatibility Mode: false
+Migration Mode: none

@@ -1,0 +1,200 @@
+# 
+# Parties' Config file
+#
+# For a better configuration:
+# - Use Notepad++
+#   - View -> Show White Space and TAB (Active)
+#   - Don't use arrows, but spaces
+# - Setting format editor to YAML
+#
+#
+# Available tags:
+# ColorCodes (ex: &1, &2, &3, &a, &b, &c, &r, &l)
+# %party% = Show name of party
+# %sender% or %player% = Show name of sender/player
+# %rank% = Show a customizable string (format-rank-leader and format-rank-member)
+# %message% = Show the message of player
+# %desc% = Show the party description
+# %world% = Show the name of world of sender/player (ex: world_nether)
+# %group% = If PEX/GM is active will display the name of group customizable (format-group)
+#
+functions:
+    # You can create a file called messages_XX.yml, where XX is the messages-lang: XX
+    # Available: en, it
+    messages-lang: en
+    # If found an update then download it
+    download-updates: false
+    # Send a message to admins if is available an update
+    warn-updates-in-game: true
+    # If you can't use a command that will not be printed in the help page
+    per-permission-help: true
+    # Permissions for help page
+    permission-page-help: 9
+    # Prevent fighting between players in a party
+    prevent-damage-between-players: true
+    # When a partymate hit another partymate will be warned the leaders
+    warn-leaders-on-fight: true
+    # Divide-exp system
+    divide-exp-between-players: false
+    # Range in blocks between player in a party divide experience, -1 is unlimited (Everyone player in the party online)
+    divide-exp-range: 15
+    # See invisible allies
+    see-allies-invisible: true
+database:
+    # file = Save all data in a configuration file
+    # sql = Save all data in a SQL Database
+    type: file
+    # Command migrate can be used only from the console
+    migrate-only-console: true
+    file:
+        # Default is data (data.yml)
+        name: data
+    sql:
+        url: "jdbc:mysql://localhost:3306/database"
+        username: "username"
+        password: "password"
+        tables:
+            spies: "spies"
+            players: "players"
+            parties: "parties"
+party:
+    # Command /party leader will degrade a leader if is already leader
+    degrade-leaders: true
+    # In seconds
+    invite-timeout: 20
+    # Don't invite players without permission for join in the party
+    prevent-invite-player-no-permission-join: true
+    # Just leaders can use party home
+    home-just-leaders: false
+    # Party home cooldown in seconds (-1 is unlimited)
+    # Can be bypassed by permission parties.home.%time%
+    home-cooldown: 0
+    # Deny teleport if player move or be hitted
+    home-cancel-if-move: true
+    # Distance for deny teleport
+    home-distance-cancel: 3
+    # Max members in a party (-1 is unlimited)
+    max-members: -1
+    # Allowed chars: [a-z, A-Z, 0-9]
+    # If you use tag-name system, for avoid bugs set max to 10
+    min-length-name: 3
+    max-length-name: 10
+    # Description mininum and maximus characters
+    description-min: 3
+    description-max: 16
+    # Remove description command (Es. /party desc remove)
+    description-remove-word: "remove"
+    # Words censored in the description
+    description-censored-words: []
+motd:
+    length-min: 3
+    # SQL limit: 255 chars
+    length-max: 100
+    # Regex of the chars (Use "\\" instead "\")
+    allowed-chars: '[a-zA-Z0-9\\ .,]+'
+    new-line-code: '\\n'
+    remove-word: "remove"
+    censored-words: []
+kills:
+    # Save in data.yml each kill of party
+    save-kills: false
+    which-save:
+        neutral-mobs: false
+        hostile-mobs: false
+        players: true
+tag:
+    # Set a tag name ahead players head
+    tag-system: false
+    # Base-tag is TRUE  | Custom-tag is FALSE
+    which-tag-system: true
+    # Show name of party
+    base-tag:
+        # Warning: If you select this the max length for the party name is 10 chars. Overflow this will be bug plugin.
+        #
+        # Formats for the tag [ PREFIX | PLAYER NAME | SUFFIX]
+        format-prefix: "[%party%] "
+        format-suffix: ""
+    # Show a customizable name
+    custom-tag:
+        # Prefix are the /party prefix command
+        prefix: true
+        format-prefix: "[%prefix%] "
+        # Suffix are the /party suffix command
+        suffix: false
+        format-suffix: " [%suffix%]"
+        remove-word: "remove"
+        max-length: 6
+        min-lenght: 3
+        censored-words: []
+chat:
+    chat-format: "&b[Party] %rank%%player%&r&7: &b%message%"
+    spy-chat-format: "&7[Party:%party%] %player%: %message%"
+    party-broadcast-format: "&b[Party] %message%"
+    format-rank-leader: "&l"
+    format-rank-member: ""
+    format-group: "[%name%] "
+list:
+    # Sort system:
+    # kills = Total kills party.
+    # players = Total players online.
+    # allplayers = Total players
+    # name = Alphabetical order
+    ordered-by: players
+    # Filter parties with number of online players less than X.
+    filter-min: 1
+    parties-per-page: 8
+    # Hide some parties from list (Type the name of party)
+    hidden-parties: []
+censor:
+    # Censor name party system
+    enable: false
+    case-sensitive: false
+    contains: []
+    start-with: []
+    end-with: []
+griefprevention:
+    enable: false
+    claim-just-leaders: false
+    # To add permissions you need to be Owner of the claim, else a Manager or Owner
+    need-to-be-owner-claim: false
+    sub-commands:
+        trust: "trust"
+        container: "container"
+        access: "access"
+        remove: "remove"
+commands:
+    # Change commands (For the help page see messages configuration file)
+    command-party: "party"
+    command-party-desc: "Parties help page"
+    command-help: "help"
+    command-p: "p"
+    command-p-desc: "Send a party message"
+    command-create: "create"
+    command-accept: "accept"
+    command-deny: "deny"
+    command-ignore: "ignore"
+    command-leave: "leave"
+    command-list: "list"
+    command-info: "info"
+    command-members: "members"
+    command-home: "home"
+    command-sethome: "sethome"
+    command-desc: "desc"
+    command-motd: "motd"
+    command-chat: "chat"
+    command-invite: "invite"
+    command-prefix: "prefix"
+    command-suffix: "suffix"
+    command-kick: "kick"
+    command-delete: "delete"
+    command-rename: "rename"
+    command-silent: "silent"
+    command-leader: "leader"
+    command-spy: "spy"
+    command-reload: "reload"
+    sub-command-on: "on"
+    sub-command-off: "off"
+    command-migrate: "migrate"
+    command-claim: "claim"
+dont-edit-this:
+    config-version: 7

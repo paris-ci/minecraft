@@ -1,0 +1,243 @@
+# 
+# Parties' Messages configuration file
+#
+# For a better configuration:
+# - Use Notepad++
+#   - View -> Symbols -> Show White Space and TAB (Active)
+#   - Don't use arrows, but spaces
+# - Setting format editor to YAML
+#
+#
+# Available tags:
+# ColorCodes (ex: &1, &2, &3, &a, &b, &c, &r, &l)
+# %party% = Show name of party
+# %desc% = Show party description
+# %motd% = Motd of the party
+# %kills% = Kills of the party
+# %prefix% = Prefix of the party
+# %suffix% = Suffix of the party
+# %players% = Number of players online in the party
+# %sender% or %player% = Show name of sender/player
+# %rank% = Show a customizable string (format-rank-leader and format-rank-member)
+# %message% = Show the message of player
+# %world% = Show the name of world of sender/player (ex: world_nether)
+# %group% = If PEX/GM is active will display the name of group
+#
+# You can use \n for ENTER 
+#
+# Special tag: %permission% = Name of missing permission
+no-permission: "&cYou do not have access to that command"
+invalid-command: "&cInvalid command"
+cant-hit-mates: "&cYou can't hit your partymates"
+warn-on-hit-leaders: "&c%player% tried to hit %victim%!"
+no-party: "&cYou are not in a party"
+configuration-reloaded: "&aConfiguration reloaded"
+# Special tags: %version% = The version of the update | %thisversion% = The version of your plugin
+update-available: "&9Parties %thisversion% found an update: %version%"
+# Special tags: %exp% = Experience gained | %exptotal% = Total experience | %mob% = Mob type name (Ex. Skeleton, Zombie)
+exp-gained: "&bYou killed a %mob%, you gained %exp% experience"
+exp-gained-from-other: "&b%player% has killed a %mob%, you gained %exp% experience"
+p:
+    wrong-command: "&cWrong variables: Type &7/p <message>"
+create:
+    party-created: "&l&bYou have created the party %party%\n&r&bType &7/party invite &bfor invite your mates"
+    name-already-exist: "&cThe party name %party% already exists, choose a different name"
+    already-in-party: "&cYou are already in a party!"
+    too-long-name: "&cThe party name is too long!"
+    too-short-name: "&cThe party name is too short!"
+    invalid-name: "&cInvalid characters. Use: a-Z or 0-9."
+    censored-name: "&cThe party name contains censored words!"
+    wrong-command: "&cWrong variables: Type &7/party create <name>"
+accept:
+    welcome-player: "&b&lYou joined the party %party%"
+    player-joined: "&b&l%player% joined in the party"
+    invite-accepted: "&a%player% accepted your invite"
+    accepted: "&aYou accepted the party invite"
+    max-player-reached: "&cThe party is full!"
+    no-invite: "&cYou have not pending invitation"
+    no-exist: "&cThe invite doesnt exist anymore"
+deny:
+    invite-denied: "&7%player% denied your invite"
+    denied: "&7You denied the party invite"
+    no-invite: "&cYou have not pending invitation"
+    no-exist: "&cThe invite doesnt exist anymore"
+ignore:
+    header: "&b&lList parties ignored:"
+    list-ignored-color: "&c"
+    list-ignored-separator: "&7, "
+    list-ignored-empty: "&7Anyone"
+    party-ignored: "&7Ignoring %party% invites"
+    party-deignored: "&7You stopped ignoring %party%"
+    no-exist: "&cThis party doesnt exist"
+    wrong-command: "&cWrong variables: Type &7/party ignore [party]"
+leave:
+    bye-player: "&b&lYou left the party %party%"
+    player-leaved-from-party: "&b&l%player% left the party"
+    party-disbanded: "&b&lThe party has been disbanded because all leaders left"
+info:
+    # Special tags:
+    # %leaders% = List leaders | %numberleaders% = Number of leaders
+    # %members% = List members | %numbermembers% = Number of members
+    # %online% = List online players | %numberonline% = Number of online players
+    header: "&b============ &l%party%'s Info &r&b============"
+    content: "&bDescription: &7%desc%\n&bMotd: &7%motd%\n&bLeaders: &7%leaders%\n&bMembers: &7%numbermembers%\n&bOnline: &7%numberonline%"
+    player-online-prefix: "&7"
+    player-offline-prefix: "&8"
+    player-separator: "&8, "
+    player-empty: "&7Anyone"
+    missing: "&7Missing"
+    no-exist: "&cThe party %party% doesn't exist"
+    wrong-command: "&cWrong variables: Type &7/party info [party]"
+members:
+    # Special tag: %number% (Can be maxnumber or just the number of leaders and members)
+    header: "&b&lList members of the party %party%"
+    leaders: "&7Leaders[%number%]: "
+    members: "&7Members[%number%]: "
+    player-online-prefix: "&7"
+    player-offline-prefix: "&8"
+    player-separator: "&8, "
+    player-empty: "&7Anyone"
+    no-exist: "&cThe party %party% doesn't exist"
+    wrong-command: "&cWrong variables: Type &7/party members [party]"
+desc:
+    # Special tag: %desc% = Description of the party
+    changed: "&bParty description changed in %desc%"
+    removed: "&bParty description removed"
+    invalid-chars: "&cInvalid characters. Use: a-Z or 0-9. Min 3 and max 16 chars."
+    censored-name: "&cThe description contains censored words!"
+    only-leader: "&cOnly leaders can set the description"
+    wrong-command: "&cWrong variables: Type &7/party desc <description/remove>"
+motd:
+    # Special tag: %motd% = MOTD (Message of the Day) of the party
+    changed: "&bParty motd changed"
+    removed: "&bParty motd removed"
+    header: "&bParty motd:"
+    color-motd: "&b"
+    footer: ""
+    invalid-chars: "&cInvalid characters. You can also use ''. , /''. Min 3 and max 100 chars."
+    censored-name: "&cThe description contains censored words!"
+    only-leader: "&cOnly leaders can set the motd"
+    wrong-command: "&cWrong variables: Type &7/party motd <motd/remove>"
+chat:
+    enabled: "&aChat setted to party"
+    disabled: "&aChat setted to public"
+    wrong-command: "&cWrong variables: Type &7/party chat [on/off]"
+list:
+    # Special tags: %number% = Number parties online | %page% = Current list page | %maxpages% = How many pages exist
+    header: "&b============ &lOnline Parties List &r&b============"
+    sub-header: ""
+    no-one-online: "&7Anyone"
+    format-party: "&b%party%&7[&6Online %players%&7] %desc%"
+    footer: "&b================ &lPage %page% of %maxpages% &r&b================"
+    wrong-command: "&cWrong variables: Type &7/party list [page]"
+invite:
+    only-leader: "&cOnly leaders can invite other players"
+    only-online: "&cYou can invite only online players"
+    max-player-reached: "&cThe party is full!"
+    already-party: "&c%player% is already in a party"
+    already-invite: "&c%player% was already invited"
+    no-permission-player: "&c%player% doesn't have permissions for join"
+    invite-send: "&bYou invited %player% in your party"
+    invite-rec: "&b%player% has invited you in his party"
+    invite-timeout: "&7You didnt accept the party invite"
+    invite-noresponse: "&7%player% didnt accept the party invite"
+    how-accept: "&bTo accept/deny invitation type &7/party <accept/deny>"
+    wrong-command: "&cWrong variables: Type &7/party invite <name>"
+prefix:
+    changed: "&bParty prefix changed in %prefix%"
+    removed: "&bParty prefix removed"
+    invalid-chars: "&cInvalid characters. Use: a-Z or 0-9. Min 3 and max 6 chars."
+    censored-name: "&cThe prefix contains censored words!"
+    only-leader: "&cOnly leaders can set the prefix"
+    wrong-command: "&cWrong variables: Type &7/party prefix <prefix/remove>"
+suffix:
+    changed: "&bParty suffix changed in %suffix%"
+    removed: "&bParty prefix removed"
+    invalid-chars: "&cInvalid characters. Use: a-Z or 0-9. Min 3 and max 6 chars."
+    censored-name: "&cThe suffix contains censored words!"
+    only-leader: "&cOnly leaders can set the suffix"
+    wrong-command: "&cWrong variables: Type &7/party suffix <suffix/remove>"
+kick:
+    only-leader: "&cOnly leaders can kick other players"
+    cant-kick-leader: "&cYou cannot kick a leader"
+    kick-send: "&b&lYou kicked %player% from your party!"
+    kicked-from-party: "&bYou have been kicked from party %party%"
+    kicked-player-party: "&b&l%player% has been kicked from party"
+    no-member: "&c%player% is not in your party"
+    wrong-command: "&cWrong variables: Type &7/party kick <name>"
+delete:
+    deleted: "&aParty %party% deleted"
+    silent-delete: "&aParty %party% silently deleted"
+    warn: "&cYour party has been deleted"
+    no-exist: "&cThe party %party% doesn't exist"
+    wrong-command: "&cWrong variables: Type &7/party delete <party> [silent]"
+rename:
+    renamed: "&aRenamed the party %old% in %party%"
+    broadcast-party: "&aYour party has been renamed in %party%!"
+    no-exist: "&cThe party %party% doesn't exist"
+    wrong-command: "&cWrong variables: Type &7/party rename <party> <newname>"
+leader:
+    only-leader: "&cOnly leaders can promote other players"
+    already-leader: "&c%player% is already a leader!"
+    no-member: "&c%player% is not in your party"
+    promoted-leader: "&b&l%player% now is a leader of your party"
+    degrade-leader: "&b&l%player% is no longer a leader of your party"
+    degrade-yourself: "&cYou can't degrade yourself!"
+    wrong-command: "&cWrong variables: Type &7/party leader <name>"
+sethome:
+    setted-broadcast: "&aThe party have a new home!"
+    only-leader: "&cOnly leaders can set the party home"
+    wrong-command: "&cWrong variables: Type &7/party sethome"
+home:
+    teleported: "&7Teleported to the party home"
+    # Special tag: %time% = Time of cooldown
+    teleport-in: "&7You will be teleported in %time% seconds..."
+    teleport-denied: "&7Teleport denied"
+    only-leader: "&cOnly leaders can teleport to the party home"
+    no-home: "&cThe home of the party isn't setted"
+    wrong-command: "&cWrong variables: Type &7/party home"
+claim:
+    done: "&aGranted permission to the party"
+    removed: "&aRemoved permission to the party"
+    only-leader: "&cOnly leaders can grant permissions to the party"
+    no-manager: "&cYou need to be manager of the claim"
+    no-exist-claim: "&cAny claim found"
+    wrong-command: "&cWrong variables: Type &7/party claim <permission>\n&cPermissions: trust, container & access"
+spy:
+    activated: "&7Now you are a spy!"
+    disabled: "&7You are no longer a spy"
+database:
+    to-file: "&aCopied data from SQL to FILE"
+    to-sql: "&aCopied data from FILE to SQL"
+    sql-offline: "&cThe database SQL must be online!"
+    wrong-command: "&cWrong variables: Type &7/party migrate <sql/file>"
+help:
+    header: "&b================= &lHelp Party %page%/%maxpages% &r&b================="
+    help: "&b/party help [page] &7- Show help pages"
+    p: "&b/p <message> &7- Send a message to the party"
+    create: "&b/party create <name> &7- Create a new party"
+    accept: "&b/party accept &7- Accept a party invitation"
+    deny: "&b/party deny &7- Deny a party invitation"
+    ignore: "&b/party ignore [party] &7- Add/remove/show parties ignored"
+    leave: "&b/party leave &7- Leave your party"
+    info: "&b/party info [party] &7- Show party's information"
+    members: "&b/party members [party] &7- Show the members list"
+    home: "&b/party home &7- Teleport to the party home"
+    sethome: "&b/party sethome &7- Set the party home"
+    desc: "&b/party desc <description/remove> &7- Add/remove description"
+    motd: "&b/party motd <motd/remove> &7- Add/remove motd"
+    chat: "&b/party chat [on/off] &7- Toggle the party chat"
+    list: "&b/party list [page] &7- Show list parties online"
+    invite: "&b/party invite <player> &7- Invite a player to your party"
+    prefix: "&b/party prefix <prefix/remove> &7- Add/remove prefix tag"
+    suffix: "&b/party suffix <suffix/remove> &7- Add/remove suffix tag"
+    kick: "&b/party kick <player> &7- Kick a player from your party"
+    leader: "&b/party leader <player> &7- Promote to leader a party player"
+    spy: "&b/party spy &7- Spy messages other parties"
+    delete: "&b/party delete <party> &7- Delete the party"
+    rename: "&b/party rename <party> <newname> &7- Rename the party"
+    reload: "&b/party reload &7- Reload the configuration"
+    migrate: "&b/party migrate <sql/file> &7- Copy database to SQL/File"
+    claim: "&b/party claim <permission> &7- Grant permissions into the claim"
+dont-edit-this:
+    messages-version: 6
